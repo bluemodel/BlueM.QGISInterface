@@ -1,0 +1,878 @@
+name_short;name_long;comment_for_dlg2;example;headlines;add_lines_1;add_lines_2;add_lines_3;add_lines_4;add_lines_5;add_lines_6;add_lines_7;last_line;pattern;attr_count;attr_01;attr_01_type;attr_02;attr_02_type;attr_03;attr_03_type;attr_04;attr_04_type;attr_05;attr_05_type;attr_06;attr_06_type;attr_07;attr_07_type;attr_08;attr_08_type;attr_09;attr_09_type;attr_10;attr_10_type;attr_11;attr_11_type;attr_12;attr_12_type;attr_13;attr_13_type;attr_14;attr_14_type;attr_15;attr_15_type;attr_16;attr_16_type;attr_17;attr_17_type;attr_18;attr_18_type;attr_19;attr_19_type;attr_20;attr_20_type;attr_21;attr_21_type;attr_22;attr_22_type;attr_23;attr_23_type;attr_24;attr_24_type;attr_25;attr_25_type;attr_26;attr_26_type;attr_27;attr_27_type;attr_28;attr_28_type;attr_29;attr_29_type;attr_30;attr_30_type;attr_31;attr_31_type;attr_32;attr_32_type;attr_33;attr_33_type;attr_34;attr_34_type;attr_35;attr_35_type;attr_36;attr_36_type;attr_37;attr_37_type;attr_38;attr_38_type;attr_39;attr_39_type;attr_40;attr_40_type;attr_41;attr_41_type;attr_42;attr_42_type;attr_43;attr_43_type;attr_44;attr_44_type;attr_45;attr_45_type;attr_46;attr_46_type;attr_47;attr_47_type;attr_48;attr_48_type;attr_49;attr_49_type;attr_50;attr_50_type;attr_51;attr_51_type;attr_52;attr_52_type;attr_53;attr_53_type;attr_54;attr_54_type;attr_55;attr_55_type;attr_56;attr_56_type;attr_57;attr_57_type;attr_58;attr_58_type;attr_59;attr_59_type;attr_60;attr_60_type;attr_61;attr_61_type;attr_62;attr_62_type;attr_63;attr_63_type;attr_64;attr_64_type;attr_65;attr_65_type;attr_66;attr_66_type;attr_67;attr_67_type;attr_68;attr_68_type;attr_69;attr_69_type;attr_70;attr_70_type;attr_71;attr_71_type;attr_72;attr_72_type;attr_73;attr_73_type;attr_74;attr_74_type;attr_75;attr_75_type;attr_76;attr_76_type;attr_77;attr_77_type;attr_78;attr_78_type;attr_79;attr_79_type;attr_80;attr_80_type
+ALL;General Simulation Options;Only first line of attributes will be exported.\nAny other lines are ignored.;"*Allgemeine Angaben (*.ALL)
+*==========================
+
+ Bezeichnung.....................: Demo NA Modell Bodenfeuchte
+
+*Hauptueberschriften:
+*--------------------
+ ................................:
+ ................................:
+ ................................:
+
+*Simulations-Zeitraum:
+*---------------------             TT.MM.JJJJ hh:mm - TT.MM.JJJJ hh:mm
+ SimBeginn - SimEnde ............: 01.01.1990 00:00 - 05.01.1990 04:00
+
+*Zeitschritt:
+*------------
+ Zeitschrittlaenge [min] ........: 60
+ Zeitschritt Monat = M ..........:
+
+*Anfangsbedingungen:
+*-------------------
+ Muldenverluste [mm] ............: 4
+ Anfangsverlust [%] .............: 100
+ Gerinneabfluss [% von MQ] ......: 100
+ Anfangsbeckenfuellung [%] ......: 100
+ Anfangsbodenfeuchte [%] ........: 100
+
+*Simulationsoptionen:
+*-------------------
+ Kontrollfunktionen ...... [J/N] : J
+
+*Berechnungsparameter:
+*--------------------
+ Exponent Abweichungen Sollwert .: 0
+ Fehlerabweichung am Pegel [%] ..: 0
+ Fehlerabweichung Zielfkt. [%] ..: 0
+
+*Ausgabeoptionen:
+*----------------
+ Ausgabe Maximalereignisse [J/N] : J
+ Bilanzausgabe ........... [J/N] : J
+ ... Wahrscheinlichkeiten  [J/N] : N
+ Ganglinienausgabe ....... [J/N] : J
+ ... CSV-Format .......... [J/N] : J
+ ... Binaerausgabe ....... [J/N] : N
+ Animation ............... [J/N] : N
+
+ *DiffQuellen:
+*-------------
+ Berechnung ...............[0-4] : 1
+ Anzahl Stoffe ............[0-99]: 6
+ 
+*Erw. Ausgabeoptionen:
+*-------------
+ EFL-Wellenausgabe (LEFLWELOUT). : N
+ EFL-Bodenkennwerte (LEFLOUT)... : N
+ DIF-Testausgabe (LDIFOUT) ..... : N
+ Protokollausgabe (LLOGOUT) .... : J
+ LTSTOUT ....................... : N
+ LBFFKT ........................ : N
+ LBFOUT ........................ : N
+ 
+*Beschreibung:
+*-------------";;;;;;;;;;" *Allgemeine Angaben (*.ALL)
+*==========================
+
+ Bezeichnung.....................: {}
+
+*Hauptueberschriften:
+*--------------------
+{}
+
+*Simulations-Zeitraum:
+*---------------------             TT.MM.JJJJ hh:mm - TT.MM.JJJJ hh:mm
+ SimBeginn - SimEnde ............: {} - {}
+
+*Zeitschritt:
+*------------
+ Zeitschrittlaenge [min] ........: {}
+ Zeitschritt Monat = M ..........: {}
+
+*Anfangsbedingungen:
+*-------------------
+ Muldenverluste [mm] ............: {}
+ Anfangsverlust [%] .............: {}
+ Gerinneabfluss [% von MQ] ......: {}
+ Anfangsbeckenfuellung [%] ......: {}
+ Anfangsbodenfeuchte [%] ........: {}
+
+*Simulationsoptionen:
+*-------------------
+ Kontrollfunktionen ...... [J/N] : {}
+
+*Berechnungsparameter:
+*--------------------
+ Exponent Abweichungen Sollwert .: {}
+ Fehlerabweichung am Pegel [%] ..: {}
+ Fehlerabweichung Zielfkt. [%] ..: {}
+
+*Ausgabeoptionen:
+*----------------
+ Ausgabe Maximalereignisse [J/N] : {}
+ Bilanzausgabe ........... [J/N] : {}
+ ... Wahrscheinlichkeiten  [J/N] : {}
+ Ganglinienausgabe ....... [J/N] : {}
+ ... CSV-Format .......... [J/N] : {}
+ ... Binaerausgabe ....... [J/N] : {}
+ Animation ............... [J/N] : {}
+
+ *DiffQuellen:
+*-------------
+ Berechnung ...............[0-4] : {}
+ Anzahl Stoffe ............[0-99]: {}
+ 
+*Erw. Ausgabeoptionen:
+*-------------
+ EFL-Wellenausgabe (LEFLWELOUT). : {}
+ EFL-Bodenkennwerte (LEFLOUT)... : {}
+ DIF-Testausgabe (LDIFOUT) ..... : {}
+ Protokollausgabe (LLOGOUT) .... : {}
+ LTSTOUT ....................... : {}
+ LBFFKT ........................ : {}
+ LBFOUT ........................ : {}
+ 
+*Beschreibung:
+*-------------
+{}";32;Bezeichnung;ssssssssssssssssssssssssssssssssssssssss;Hauptueberschriften;ssssssssssssssssssssssssssssssssssssssss;SimBeginn;TT.MM.JJJJ hh:mm;SimEnde;TT.MM.JJJJ hh:mm;Zeitschrittlaenge;ssssssssss;Zeitschritt_Monat;ssssssssss;Muldenverlust;iiiii;Anfangsverlust;iiiii;Gerinneabfluss;iiiii;Anfangsbeckenfuellung;iiiii;Anfangsbodenfeuchte;iiiii;Kontrollfunktionen;Y;Exponent_Abw_Sollwert;iii;Fehlerabweichung_am_Pegel;iii;Fehlerabweichung_Zielfkt;iii;Ausgabe_Maximalereignisse;Y;Bilanzausgabe;Y;Wahrscheinlichkeiten;Y;Ganglinienausgabe;Y;CSV_Format;Y;Binaerausgabe;Y;Animation;Y;Berechnung;ii;Anzahl_Stoffe;ii;EFL_Wellenausgabe;Y;EFL_Bodenkennwerte;Y;DIF_Testausgabe;Y;Protokollausgabe;Y;LTSTOUT;Y;BLBFFKT;Y;LBFOUT;Y;Beschreibung;ssssssssssssssssssssssssssssssssssssssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SYS;System Plan;"The system element ""ZIELPEGEL (ZPG)"" has to be\nthe last element in the SYS-file.";"*Systemlogik (*.SYS)
+*===================
+*
+*|-------------------------------|----------------|----------------|---|---|
+*|       S  y  s  t  e  m        |    Zulauf      |      Ablauf    |WEL|BIL|
+*|    Beschreibung        |  Nr. |  1    2    3   |  1    2    3   |   |   |
+*|<--------------------->-|-<-->-|-<-->-<-->-<-->-|-<-->-<-->-<-->-|-+-|-+-|
+ | TG OBEREEMMER          | A001 |                | S100           | J | J |TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S100 | A001           | S102           | J |   |GE von TG OBEREEMMER
+ | TG OBEREEMMER          | A002 |                | S102           | J |   |TG OBEREEMMER
+ | TG OBEREEMMER          | A003 |                | S102           |   |   |TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S102 | A002 A003 S100 | S103           | J |   |GE von TG OBEREEMMER
+ | TG OBEREEMMER          | A004 |                | S103           |   |   |TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S103 | A004 S102      | S106           | J |   |GE von TG OBEREEMMER
+ | TG OBEREEMMER          | A005 |                | S106           | J |   |TG OBEREEMMER
+ | TG OBEREEMMER          | A007 |                | S207           | J |   |TG OBEREEMMER
+ | TG OBEREEMMER          | A012 |                | S111           |   |   |TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S111 | A012           | S112           |   |   |GE von TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S112 | A013 S111      | S214           |   |   |GE von TG OBEREEMMER
+ | FT für TG OBEREEMMER   | S214 | A014 S112      | S113           |   |   |FT für TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S113 | A011 S109 S214 | S215           |   |   |GE von TG OBEREEMMER
+ | FT für TG OBEREEMMER   | S215 | A015 S113      | S114           | J |   |FT für TG OBEREEMMER
+ | GE von TG OBEREEMMER   | S114 | A008 S106 S215 | SQZU           | J |   |GE von TG OBEREEMMER
+ | TG OBEREEMMER          | A016 |                | SQZU           |   |   |TG OBEREEMMER
+ | TG OBEREEMMER          | A017 |                | SQZU           |   |   |TG OBEREEMMER
+ | FT für TG EMMERSTH     | S235 | A035 S133      | S137           |   |   |FT für TG EMMERSTH
+ | TG EMMERSTH            | A033 |                | S238           |   |   |TG EMMERSTH
+ | TG EMMERSTH            | A038 |                | S238           |   |   |TG EMMERSTH
+ | GE von TG EMMERSTH     | S137 | S131 S235 S238 | S152           |   |   |GE von TG EMMERSTH
+ | TG EMMERSTH            | A039 |                | S152           |   |   |TG EMMERSTH
+ | TG DIESTEL             | A048 |                | S148           |   |   |TG DIESTEL
+ | TG DIESTEL             | A049 |                | S148           |   |   |TG DIESTEL
+ | GE von TG DIESTEL      | S148 | A048 A049      | S150           |   |   |GE von TG DIESTEL
+ | GE von TG DIESTEL      | S150 | A050 A051 S148 | S252           |   |   |GE von TG DIESTEL
+ | Zielpegel              | ZPG  | S171           |                |   |   |Zielpegel
+*|-------------------------------|----------------|----------------|---|---|";"*Systemlogik (*.SYS)
+*===================
+*
+*|-------------------------------|----------------|----------------|---|---|
+*|       S  y  s  t  e  m        |    Zulauf      |      Ablauf    |WEL|BIL|
+*|    Beschreibung        |  Nr. |  1    2    3   |  1    2    3   |   |   |
+*|<--------------------->-|-<-->-|-<-->-<-->-<-->-|-<-->-<-->-<-->-|-+-|-+-|";;;;;;;;*|-------------------------------|----------------|----------------|---|---|; | {} | {} | {} {} {} | {} {} {} | {} | {} | {};11;Beschreibung;ssssssssssssssssssssss;Nr;ssss;Zulauf_1;ssss;Zulauf_2;ssss;Zulauf_3;ssss;Ablauf_1;ssss;Ablauf_2;ssss;Ablauf_3;ssss;WEL;Y;BIL;Y;Add_Description;ssssssssssssssssssssssssssssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+FKT;Functions;;"*Funktionen (*.FKT)
+*==================
+*
+*|------|------------------------ FUNKTIONSWERTE -----------------------|-------------|
+*| Bez. |     Funktion        |   Fkt   |   h      X-Wert    Y-Wert     | Datum       |
+*|      |                     | Nam  Art|  mNN       -         -        | TT.MM hh:mm |
+*|-<-->-|<------------------->|-<->---+-|-<---->-<-------->-<------>----|-++.++-++:++-|
+*|   A  |        B            |  C    D |    E         F        G       |      H      | 
+*|-<-->-|<------------------->|-<->---+-|-<---->-<-------->-<------>----|-++.++-++:++-|
+ | T100 |Verdunstung          | ETP   6 |                 0        0    | 01.01 00:00 |
+ |      |                     |         |             0.005        1    |             |
+ |      |                     |         |                 1        1    |             |
+*|      |<------------------->|-<->-----|-<---->-<-------->-<------>----|-++.++-++:++-|
+ |      |Hochwasserentlastung | QH1   3*|                 0        0    | 01.01 00:00 |
+ |      |                     |         |         0.8178584        0    |             |
+ |      |                     |         |         0.8289547     3.75    |             |
+ |      |                     |         |        0.85669529 27.47999    |             |
+ |      |                     |         |        0.88443589       65    |             |
+ |      |                     |         |        0.91217649 107.6999    |             |
+ |      |                     |         |        0.94154888 150.3999    |             |
+ |      |                     |         |        0.97092134    193.1    |             |
+ |      |                     |         |                 1    235.8    |             |
+*|      |                     |-<->---+-|-<---->-<-------->-<------>----|-++.++-++:++-|
+ |      |                     | QH1   6 |                 0        0    | 01.01 00:00 |
+ |      |                     |         |             0.005        1    |             |
+ |      |                     |         |                 1        1    |             |
+*|      |<------------------->|-<->-----|-<---->-<-------->-<------>----|-++.++-++:++-|
+ |      |Hochwasserschutzraum | QS1   2*|                 0        0    | 01.01 00:00 |
+ |      |                     |         |        0.67099637        5    |             |
+ |      |                     |         |                 1        5    |             |
+*|      |                     |         |-<---->-<-------->-<------>----|-++.++-++:++-|
+ |      |                     |         |                 0        0    | 01.06 00:00 |
+ |      |                     |         |         0.7362684        5    |             |
+ |      |                     |         |                 1        5    |             |
+*|      |                     |         |-<---->-<-------->-<------>----|-++.++-++:++-|
+ |      |                     |         |                 0        0    | 31.12 00:00 |
+ |      |                     |         |        0.67099637        5    |             |
+ |      |                     |         |                 1        5    |             |
+*|      |                     |-<->---+-|-<---->-<-------->-<------>----|-++.++-++:++-|
+ |      |                     | QS1   6 |                 0        0    | 01.01 00:00 |
+ |      |                     |         |             0.005        1    |             |
+ |      |                     |         |                 1        1    |             |
+*|------|---------------------|---------|-------------------------------|-------------|";"*Funktionen (*.FKT)
+*==================
+*
+*|------|------------------------ FUNKTIONSWERTE -----------------------|-------------|
+*| Bez. |     Funktion        |   Fkt   |   h      X-Wert    Y-Wert     | Datum       |
+*|      |                     | Nam  Art|  mNN       -         -        | TT.MM hh:mm |";*|-<-->-|<------------------->|-<->---+-|-<---->-<-------->-<------>----|-++.++-++:++-|;*|      |<------------------->|-<->-----|-<---->-<-------->-<------>----|-++.++-++:++-|;*|      |                     |-<->---+-|-<---->-<-------->-<------>----|-++.++-++:++-|;;;;;*|------|---------------------|---------|-------------------------------|-------------|; | {} |{}| {}   {}| {} {} {}    | {} |;8;Bez;ssss;Funktion;sssssssssssssssssssss;Fkt_Nam;sss;Fkt_Art;ss;h_mNN;iiiiii;X-Wert;ffffffffff;Y-Wert;ffffffff;Datum;TT.MM hh:mm;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+KTR;Control functions;Control functions for the same element must be\nlisted immediately one after another.\n(BlueM Bug 342);"*Kontrollfunktionen (*.KTR)
+*==========================
+*
+*Kontrolltypen:  Typ: A = Aktuelle Systemzustaende
+*                     B = Bilanzen (Abweichungen vom Sollwert)
+*                     C = Bilanzen (aktuelle Systemzustaende)
+*                     P = Pegel
+*
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-------------------------------------|-----------------------------------------------|------------------------------|--------------------------------------------|
+*| Bez.   |KTR| Funkt.|KTR| Sys-| 1.KTR    |WEL|     Beschreibung     | S O L L W E R T|             I S T W E R T           |            K O O R D I N A T E N              |      ACHSENBESCHRIFTUNG      |        W E R T E   A E N D E R U N G       |
+*|      an|Kng| S Z A |Typ|zust.|Z Kng Fak |   |                      |    Wert    JGG | Kng |Zschr|fest.Zeitraum|Monat|XZsch|                                               |                              |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|
+*|        |   |       |   |     |          |   |                      |   Tsd.m3       | 1-4 | max.| Start  Ende | dt= | max.| Systemzustandsfenster | Kontrollgruppenfenster|    X-Achse        Y-Achse    |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|     J/N|   | J/N i |   |     |          |   |                      |  m3/s, mm   -  |     | 7200| tt.mm tt.mm |Monat| 7200|      x         y      |      x         y      |                              |   |                           |            |
+*|-<-->-+-|<->|-+-+-+-|-+-|-<->-|++<-><--->|-+-|-<------------------>-|-<-------->-<->-|-<->-|<--->|-++.++-++.++-|-----|<--->|-<-------->-<-------->-|-<-------->-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|
+ | T170 J |y01| J N 0 | A | VOL |          | N | VOL_EmmerTS          |                |  1  |  1  |             |xxxxx|     |       2235        570 |          0          0 |                              | 0 | 4       1|01.01.1990      |            |VOL_EmmerTS
+ | THRB J |y02| J N 0 | A | 1ZU |          | N |  Zulauf              |                |  1  |  1  |             |xxxxx|     |       1635         75 |          0          0 |                              | 0 | 4       1|01.01.1990      |            | Zulauf
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|
+*
+*Kontrollgruppen: KGRP: Z = Zusammenfassung verschiedener Kontrollfunktionen
+*                 Wert: 1 : Kontrolliert IST  - Wert
+*                       2 : Kontrolliert FAKTOR - Wert
+*
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-------------------------------------|-----------------------------------------------|------------------------------|--------------------------------------------|
+*| Bez.   |KTR| Funkt.|KTR| Sys-| 1.KTR    |WEL|     Beschreibung     | S O L L W E R T|             I S T W E R T           |            K O O R D I N A T E N              |      ACHSENBESCHRIFTUNG      |        W E R T E   A E N D E R U N G       |
+*|      an|Kng| S Z A |Typ|zust.|Z Kng Fak |   |                      |    Wert    JGG | Kng |Zschr|fest.Zeitraum|Monat|XZsch|                                               |                              |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|
+*|        |   |       |   |     |          |   |                      |   Tsd.m3       | 1-4 | max.| Start  Ende | dt= | max.| Systemzustandsfenster | Kontrollgruppenfenster|    X-Achse        Y-Achse    |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|     J/N|   | J/N i |   |     |          |   |                      |  m3/s, mm   -  |     | 7200| tt.mm tt.mm |Monat| 7200|      x         y      |      x         y      |                              |   |                           |            |
+*|-<-->-+-|<->|-+-+-+-|-+-|-<->-|++<-><--->|-+-|-<------------------>-|-<-------->-<->-|-<->-|<--->|-++.++-++.++-|-----|<--->|-<-------->-<-------->-|-<-------->-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|
+ | KGRP J |y03| J N 0 | A |     |+ y01 0.85| J | Hydropower production|                |     |     |             |     |     |                       |                       |                              |   |                           |            |
+ |        |   |       |   |     |* y02 9.81|   |                      |                |     |     |             |     |     |                       |                       |                              |   |                           |            |
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|";"*Kontrollfunktionen (*.KTR)
+*==========================
+*
+*Kontrolltypen:  Typ: A = Aktuelle Systemzustaende
+*                     B = Bilanzen (Abweichungen vom Sollwert)
+*                     C = Bilanzen (aktuelle Systemzustaende)
+*                     P = Pegel
+*
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-------------------------------------|-----------------------------------------------|------------------------------|--------------------------------------------|
+*| Bez.   |KTR| Funkt.|KTR| Sys-| 1.KTR    |WEL|     Beschreibung     | S O L L W E R T|             I S T W E R T           |            K O O R D I N A T E N              |      ACHSENBESCHRIFTUNG      |        W E R T E   A E N D E R U N G       |
+*|      an|Kng| S Z A |Typ|zust.|Z Kng Fak |   |                      |    Wert    JGG | Kng |Zschr|fest.Zeitraum|Monat|XZsch|                                               |                              |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|
+*|        |   |       |   |     |          |   |                      |   Tsd.m3       | 1-4 | max.| Start  Ende | dt= | max.| Systemzustandsfenster | Kontrollgruppenfenster|    X-Achse        Y-Achse    |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|     J/N|   | J/N i |   |     |          |   |                      |  m3/s, mm   -  |     | 7200| tt.mm tt.mm |Monat| 7200|      x         y      |      x         y      |                              |   |                           |            |
+*|-<-->-+-|<->|-+-+-+-|-+-|-<->-|++<-><--->|-+-|-<------------------>-|-<-------->-<->-|-<->-|<--->|-++.++-++.++-|-----|<--->|-<-------->-<-------->-|-<-------->-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|";"*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|
+*
+*Kontrollgruppen: KGRP: Z = Zusammenfassung verschiedener Kontrollfunktionen
+*                 Wert: 1 : Kontrolliert IST  - Wert
+*                       2 : Kontrolliert FAKTOR - Wert
+*
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-------------------------------------|-----------------------------------------------|------------------------------|--------------------------------------------|
+*| Bez.   |KTR| Funkt.|KTR| Sys-| 1.KTR    |WEL|     Beschreibung     | S O L L W E R T|             I S T W E R T           |            K O O R D I N A T E N              |      ACHSENBESCHRIFTUNG      |        W E R T E   A E N D E R U N G       |
+*|      an|Kng| S Z A |Typ|zust.|Z Kng Fak |   |                      |    Wert    JGG | Kng |Zschr|fest.Zeitraum|Monat|XZsch|                                               |                              |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|
+*|        |   |       |   |     |          |   |                      |   Tsd.m3       | 1-4 | max.| Start  Ende | dt= | max.| Systemzustandsfenster | Kontrollgruppenfenster|    X-Achse        Y-Achse    |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|     J/N|   | J/N i |   |     |          |   |                      |  m3/s, mm   -  |     | 7200| tt.mm tt.mm |Monat| 7200|      x         y      |      x         y      |                              |   |                           |            |
+*|-<-->-+-|<->|-+-+-+-|-+-|-<->-|++<-><--->|-+-|-<------------------>-|-<-------->-<->-|-<->-|<--->|-++.++-++.++-|-----|<--->|-<-------->-<-------->-|-<-------->-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|";;;;;;;*|--------|---|-------|---|-----|----------|---|----------------------|----------------|-----|--1--|------2------|--3--|--4--|-----------------------|-----------------------|------------------------------|---|-----------(1)-------------|----(2)-----|; | {} {} |{}| {} {} {} | {} | {} |{}{}{}| {} | {} | {} {} | {} |{}| {} {} |{}|{}| {} {} | {} {} |{}{}|{}|{} {}|{}|{} {} {} |{};35;Bez;ssss;Bez_an;Y;KTR_Kng;sss;Funkt_S;Y;Funkt_Z;Y;Funkt_A;i;KTR_Typ;s;Sys_zust.;sss;1_KTR_Z;ss;1_KTR_Kng;sss;1_KTR_Fak;sssss;WEL;Y;Beschreibung;ssssssssssssssssssss;Sollwert_Wert;ffffffffff;Sollwert_JGG;sss;Istwert_Kng;sss;Istwert_Zschr;sssss;Istwert_fest_Zeitraum_Start;tt.mm;Istwert_fest_Zeitraum_Ende;tt.mm;Istwert_Monat;sssss;Istwert_XZsch;iiiii;Koordinaten_SystemZF_x;iiiiiiiiii;Koordinaten_SystemZF_y;iiiiiiiiii;Koordinaten_KontrollGF_x;iiiiiiiiii;Koordinaten_KontrollGF_y;iiiiiiiiii;Achsenbeschriftung_x;sssssssssssssss;Achsenbeschriftung_y;sssssssssssssss;Werte_Aenderung_Kng;sss;Werte_Aenderung_Typ;sss;Werte_Aenderung_Faktor;ffffff;Werte_Aenderung_Bezugsdatum;TT.MM.JJJJ hh:mm;Werte_Aenderung_JGG;sss;Werte_Aenderung_WGG;sss;Werte_Aenderung_TGG;sss;Additional_Info;sssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EXT;time series management;;"*Zeitreihen (*.EXT)
+*==================
+*
+*|-----|------|-----|----------------------------------------------------------------------------------|
+*|Datei| Einh |Intrp| Pfad zur Zeitreihendatei                                                         |Bezeichnung
+*| Nr. |      |     |                                                                                  |
+*|-<->-|-<-->-|-<->-|-<--------1---------2---------3---------4---------5---------6---------7--------->-|
+ |  1  | mm   |  5  | ZRE\N_demoNA.ZRE                                                                 |N (hN=72.8mm; dt=240min)
+*|-----|------|-----|----------------------------------------------------------------------------------|";"*Zeitreihen (*.EXT)
+*==================
+*
+*|-----|------|-----|----------------------------------------------------------------------------------|
+*|Datei| Einh |Intrp| Pfad zur Zeitreihendatei                                                         |Bezeichnung
+*| Nr. |      |     |                                                                                  |
+*|-<->-|-<-->-|-<->-|-<--------1---------2---------3---------4---------5---------6---------7--------->-|";;;;;;;;*|-----|------|-----|----------------------------------------------------------------------------------|; | {} | {} | {} | {} |{};5;Datei_Nr;sss;Einh;ssss;Intrp;sss;Pfad;ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss;Bezeichnung;ssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JGG;Annual series;;"*Jahresgänge (*.JGG)
+*===================
+*
+*|-----|-------------|
+*| JGG |             |
+*|  -  |  Dat   Fak  |
+*|-<->+|-+++++-+++++-|
+*|  A B|   C     D   |
+ |  1  |           0 |Beispiel Jahresgang (Mittelwert 1)
+ |     |           0 |
+ |     |           0 |
+ |     |           2 |
+ |     |           2 |
+ |     |           2 |
+ |     |           2 |
+ |     |           2 |
+ |     |           2 |
+ |     |           0 |
+ |     |           0 |
+ |     |           0 |
+ |  2 V| 01.01     1 |Variabler Jahresgang (mit 14 Stützstellen)
+ |     | 15.01     2 |
+ |     | 01.02     3 |
+ |     | 15.02     4 |
+ |     | 01.03     5 |
+ |     | 01.04     6 |
+ |     | 01.05     7 |
+ |     | 01.06     8 |
+ |     | 01.07     9 |
+ |     | 01.08    10 |
+ |     | 01.09    11 |
+ |     | 01.10    12 |
+ |     | 01.11    13 |
+ |     | 01.12    14 |
+*|-----|-------------|";"*Jahresgänge (*.JGG)
+*===================
+*
+*|-----|-------------|
+*| JGG |             |
+*|  -  |  Dat   Fak  |
+*|-<->+|-+++++-+++++-|";;;;;;;;*|-----|-------------|; | {}{}| {} {} |{};5;JGG;sss;V;s;Dat;TT.MM;Fak;fffff;Additional_Info;sssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TGG;Day series;;"*Tagesgänge (*.TGG)
+*==================
+*
+*I----I-------------------------------------------------------------------I
+*I KT I  Wertepaare d. Tagesgangs: Uhrzeit (Uhr)/ Anteil v. Mittel (A)    I
+*I    I   Uhr  A     Uhr  A     Uhr  A     Uhr  A     Uhr  A     Uhr  A   I
+*I----I-------------------------------------------------------------------I
+*I  - I    h   -      h   -      h   -      h   -      h   -      h   -   I
+*I-++-I-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-I
+*|  A |   B      C   D      E   F      G   H      I    J     K    L     M |
+*I-++-I-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-I
+ |  1 | 00:00    0 01:00    1 02:00    2 03:00    3 04:00    4 05:00    5 |Test-Tagesgang (aufsteigend 0 bis 23)
+ |    | 06:00    6 07:00    7 08:00    8 09:00    9 10:00   10 11:00   11 |
+ |    | 12:00   12 13:00   13 14:00   14 15:00   15 16:00   16 17:00   17 |
+ |    | 18:00   18 19:00   19 20:00   20 21:00   21 22:00   22 23:00   23 |
+*I-++-I-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-I";"*Tagesgänge (*.TGG)
+*==================
+*
+*I----I-------------------------------------------------------------------I
+*I KT I  Wertepaare d. Tagesgangs: Uhrzeit (Uhr)/ Anteil v. Mittel (A)    I
+*I    I   Uhr  A     Uhr  A     Uhr  A     Uhr  A     Uhr  A     Uhr  A   I
+*I----I-------------------------------------------------------------------I
+*I  - I    h   -      h   -      h   -      h   -      h   -      h   -   I
+*I-++-I-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-I";;;;;;;;*I-++-I-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-+++++-++++-I; | {} | {} {} {} {} {} {} {} {} {} {} {} {} |;13;KT;ss;h_1;hh:mm;1;iiii;h_2;hh:mm;2;iiii;h_3;hh:mm;3;iiii;h_4;hh:mm;4;iiii;h_5;hh:mm;5;iiii;h_6;hh:mm;6;iiii;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+WGG;Week series;;"*Wochengänge (*.WGG)
+*===================
+*
+*|-----|-------------------------------------|
+*| WGG |   Mo   Di   Mi   Do   Fr   Sa   So  |
+*|-----|-------------------------------------|
+*|     |   -    -    -    -    -    -    -   |
+*|-<->-|-<---><---><---><---><---><---><--->-|
+ |  1  |     1    2    3    4    5    6    7 |Test-Wochengang (aufsteigend 1 bis 7)
+*|-----|-------------------------------------|";"*Wochengänge (*.WGG)
+*===================
+*
+*|-----|-------------------------------------|
+*| WGG |   Mo   Di   Mi   Do   Fr   Sa   So  |
+*|-----|-------------------------------------|
+*|     |   -    -    -    -    -    -    -   |
+*|-<->-|-<---><---><---><---><---><---><--->-|";;;;;;;;*|-----|-------------------------------------|; | {} | {}{}{}{}{}{}{} |;8;WGG;sss;Monday;fffff;Tuesday;fffff;Wednesday;fffff;Thursday;fffff;Friday;fffff;Saturday;fffff;Sunday;fffff;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BEK;Rain overflow basin;;"*Becken (*.BEK)
+*==============
+*
+*|------------|-----|----------------------|----------------------------------|---|-----|-----|
+*| Bez.  Typ  | Kng | Naeherung (Kng 1)    |        Kennlinien (Kng 2)        |Abs| Ktr | Str |
+*|            |     |  Vol   Qab   Qku     |   h   Qab    Qku   Qbu      V    |Kl.| ID  | ZR  |
+*|------------|-----|----------------------|----------------------------------|---|-----|-----|
+*|  -     -   | 1-3 |   m3    l/s     l/s  |  m     l/s    l/s    l/s     m3  | - |  -  |  -  |
+*|-<-->-<->-+-|--+--|-<---->-<---->-<---->-|<---->-<---->-<---->-<---->-<---->|-+-|-<->-|-<->-|
+*|   A   B  C |  D  |    E      F      G   |   H      I      J      K      L  | M |  N  |  O  |
+*|-++++-+++++-|-----|----------------------|----------------------------------|---|-----|-----|";"*Becken (*.BEK)
+*==============
+*
+*|------------|-----|----------------------|----------------------------------|---|-----|-----|
+*| Bez.  Typ  | Kng | Naeherung (Kng 1)    |        Kennlinien (Kng 2)        |Abs| Ktr | Str |
+*|            |     |  Vol   Qab   Qku     |   h   Qab    Qku   Qbu      V    |Kl.| ID  | ZR  |
+*|------------|-----|----------------------|----------------------------------|---|-----|-----|
+*|  -     -   | 1-3 |   m3    l/s     l/s  |  m     l/s    l/s    l/s     m3  | - |  -  |  -  |
+*|-<-->-<->-+-|--+--|-<---->-<---->-<---->-|<---->-<---->-<---->-<---->-<---->|-+-|-<->-|-<->-|";;;;;;;;*|-++++-+++++-|-----|----------------------|----------------------------------|---|-----|-----|; | {} {} {} |  {}  | {} {} {} |{} {} {} {} {}| {} | {} | {} |;16;BlueM_ID;ssss;Basin_type;sss;(H/N);s;Kng;i;Naeherung_Vol;ffffff;Naeherung_Qab;ffffff;Naeherung_Qku;ffffff;Kennlinien_h;ffffff;Kennlinien_Qab;ffffff;Kennlinien_Qku;ffffff;Kennlinien_Qbu;ffffff;Kennlinien_V;ffffff;Abs_Kl;s;Ktr_ID;sss;Str_ZR;sss;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EIN;Individual discharges;;"*Einzeleinleitungen (*.EIN)
+*==========================
+*
+*|------|-----|----------------------|----------------|--------|--------|
+*| Bez. | Kng | konst.    Ganglinie  |  Datei   Faktor| Spende | Fläche |
+*|      |     | QMITTEL  JGG WGG TGG |    Nr.         |        |        |
+*|------|-----|----------------------|----------------|--------|--------|
+*|  -   | 1/2 |   m3/s    -   -   -  |            %   |m3/s km2|   km2  |
+*|-<-->-|-<->-|-<------>-<->-<->-<->-|-<------>-<--->-|-<---->-|-<---->-|
+*|   A  |  B  |     C     D   E   F  |     G      H   |    I   |    J   |
+*|------|-----|----------------------|----------------|--------|--------|";"*Einzeleinleitungen (*.EIN)
+*==========================
+*
+*|------|-----|----------------------|----------------|--------|--------|
+*| Bez. | Kng | konst.    Ganglinie  |  Datei   Faktor| Spende | Fläche |
+*|      |     | QMITTEL  JGG WGG TGG |    Nr.         |        |        |
+*|------|-----|----------------------|----------------|--------|--------|
+*|  -   | 1/2 |   m3/s    -   -   -  |            %   |m3/s km2|   km2  |
+*|-<-->-|-<->-|-<------>-<->-<->-<->-|-<------>-<--->-|-<---->-|-<---->-|";;;;;;;;*|------|-----|----------------------|----------------|--------|--------|; | {} | {} | {} {} {} {} | {} {} | {} | {} |;11;BlueM_ID;ssss;Kng;sss;QMITTEL;ffffffff;JGG;sss;WGG;sss;TGG;sss;Datei_Nr;ssssssss;Faktor(%);fffff;Spende;ffffff;Flaeche;ffffff;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EZG;Natural catchments;;"*Einzugsgebiete (*.EZG)
+*======================
+*|------|-----|------------------------------|--------|------------------|------------------------|---------|-----|----------|-----|----------------------------------------------|--------------|-------------------------------------|--------------|
+*| Bez  | KNG |      Gebietskenngroessen     |   N    |   Verdunstung    |       Temperatur       | QBASIS  | PSI | SCS (2)  | BF0 |        Retentionskonstanten                  |  Aufteilung  |           Schneekonstanten          | QSpende      |
+*|      |     |   A    VG    Ho    Hu    L   | Datei  |Kng Sum    Datei  |Kng Tem JGG TGG  Datei  | qB  JGG | (1) | CN  VorRg| (3) | R  K(VG)   K1     K2    Int    Bas  nLin Expo| Beta1  Beta2 | R  GrT  NSchD  GrD   RateT   RateSB | MQ           |
+*|------|-----|------------------------------|--------|------------------|------------------------|---------|-----|----------|-----|----------------------------------------------|--------------|-------------------------------------|--------------|
+*|  -   | 1-4 |  ha     %   muNN  muNN   m   | Nummer |1/2 mm/a   Nummer |1/2 °C   -   -   Nummer |l/sqkm - |  -  |  -   mm  |  %  | -    h      h      h      h      h   J/N  -  |   -      -   | -  °C     %     %   mm/(°d)   mm/d  | m3/(s ha)    |
+*|-<-->-|-<->-|<----><----><----><----><---->|<------>|-+-<---->-<------>|-+-<-->-<->-<->-<------>|<--->-<->|<--->|<---><--->|<--->|-+-<---->-<---->-<---->-<---->-<---->--+-<--->|-<---->-<---->|-+-<--->-<--->-<--->-<----->-<----->-|-<---------->-|
+ |   A  |  B  |   C     D     E     F     G  |    H   | I    J       K   | L   M   N   O      P   |  Q    R |  S  |  T    U  |  V  |R1   R2     R3     R4     R5     R6   R7   R8 |   B1     B2  |S1   S2    S3    S4     S5      S6   |    Q1        |
+*|------|-----|------------------------------|--------|------------------|------------------------|---------|-----|----------|-----|----------------------------------------------|--------------|-------------------------------------|--------------|";"*Einzugsgebiete (*.EZG)
+*======================
+*|------|-----|------------------------------|--------|------------------|------------------------|---------|-----|----------|-----|----------------------------------------------|--------------|-------------------------------------|--------------|
+*| Bez  | KNG |      Gebietskenngroessen     |   N    |   Verdunstung    |       Temperatur       | QBASIS  | PSI | SCS (2)  | BF0 |        Retentionskonstanten                  |  Aufteilung  |           Schneekonstanten          | QSpende      |
+*|      |     |   A    VG    Ho    Hu    L   | Datei  |Kng Sum    Datei  |Kng Tem JGG TGG  Datei  | qB  JGG | (1) | CN  VorRg| (3) | R  K(VG)   K1     K2    Int    Bas  nLin Expo| Beta1  Beta2 | R  GrT  NSchD  GrD   RateT   RateSB | MQ           |
+*|------|-----|------------------------------|--------|------------------|------------------------|---------|-----|----------|-----|----------------------------------------------|--------------|-------------------------------------|--------------|
+*|  -   | 1-4 |  ha     %   muNN  muNN   m   | Nummer |1/2 mm/a   Nummer |1/2 °C   -   -   Nummer |l/sqkm - |  -  |  -   mm  |  %  | -    h      h      h      h      h   J/N  -  |   -      -   | -  °C     %     %   mm/(°d)   mm/d  | m3/(s ha)    |
+*|-<-->-|-<->-|<----><----><----><----><---->|<------>|-+-<---->-<------>|-+-<-->-<->-<->-<------>|<--->-<->|<--->|<---><--->|<--->|-+-<---->-<---->-<---->-<---->-<---->--+-<--->|-<---->-<---->|-+-<--->-<--->-<--->-<----->-<----->-|-<---------->-|";;;;;;;;*|------|-----|------------------------------|--------|------------------|------------------------|---------|-----|----------|-----|----------------------------------------------|--------------|-------------------------------------|--------------|; | {} | {} |{}{}{}{}{}|{}| {} {} {}| {} {} {} {} {}|{} {}|{}|{}{}|{}| {} {} {} {} {} {}  {} {}| {} {}| {} {} {} {} {} {} | {} |;40;BlueM_ID;ssss;KNG;sss;A;ffffff;VG;ffffff;Ho;ffffff;Hu;ffffff;L;ffffff;N_Datei;ssssssss;Kng_Verd;s;Sum;ffffff;Datei_Verd;ssssssss;Kng_Temp;s;Temp;ffff;JGG_Temp;sss;TGG;sss;Datei_Temp;ssssssss;qB;fffff;JGG_QBASIS;sss;PSI_1;fffff;CN;fffff;VorRg;fffff;BF0_3;fffff;R_Retentionskonst;Y;K_VG;ffffff;K1;ffffff;K2;ffffff;Int;ffffff;Bas;ffffff;nLin;Y;Expo;fffff;Beta1;ffffff;Beta2;ffffff;R_Schneekonst;Y;GrT;fffff;NSchD;fffff;GrD;fffff;RateT;fffffff;RateSB;fffffff;MQ;ffffffffffff;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+FKA;Urban catchment;;"*Kanalisierte Flächen (*.FKA)
+*======================
+*|------|-----|-----------------|--------|------------------|-----|----------|-----------------------------------------------------|
+*| Bez  | KNG |       EZG       |   N    |   Verdunstung    | PSI | SCS (2)  |             Trockenwetterabfluss                    |
+*|      |     |   A    VG   tf  | Datei  |Kng Sum    Datei  | (1) | CN  VorRg| Einw.  Qh   JGG WGG TGG   Qg  JGG WGG TGG   Qf  JGG |
+*|------|-----|-----------------|--------|------------------|-----|----------|-----------------------------------------------------|
+*|  -   | 1-2 |  ha     %   min | Nummer |1/2 mm/a   Nummer |  -  |  -   mm  |   -   l/Ed   -   -   -  l/sha  -   -   -  l/sha  -  |
+*|-<-->-|-<->-|<----><----><-->-|<------>|-+-<---->-<------>|<--->|<---><--->|-<--->-<--->-<->-<->-<->-<--->-<->-<->-<->-<--->-<->-|
+*|   A  |  B  |   C     D    E  |    F   | G   H       I    |  J  |  K    L  |   M     N    O   P   Q    R    S   T   U    V    W  |
+*|------|-----|-----------------|--------|------------------|-----|----------|-----------------------------------------------------|";"*Kanalisierte Flächen (*.FKA)
+*======================
+*|------|-----|-----------------|--------|------------------|-----|----------|-----------------------------------------------------|
+*| Bez  | KNG |       EZG       |   N    |   Verdunstung    | PSI | SCS (2)  |             Trockenwetterabfluss                    |
+*|      |     |   A    VG   tf  | Datei  |Kng Sum    Datei  | (1) | CN  VorRg| Einw.  Qh   JGG WGG TGG   Qg  JGG WGG TGG   Qf  JGG |
+*|------|-----|-----------------|--------|------------------|-----|----------|-----------------------------------------------------|
+*|  -   | 1-2 |  ha     %   min | Nummer |1/2 mm/a   Nummer |  -  |  -   mm  |   -   l/Ed   -   -   -  l/sha  -   -   -  l/sha  -  |
+*|-<-->-|-<->-|<----><----><-->-|<------>|-+-<---->-<------>|<--->|<---><--->|-<--->-<--->-<->-<->-<->-<--->-<->-<->-<->-<--->-<->-|";;;;;;;;*|------|-----|-----------------|--------|------------------|-----|----------|-----------------------------------------------------|; | {} | {} |{}{}{} |{}| {} {} {}|{}|{}{}| {} {} {} {} {} {} {} {} {} {} {} |;24;BlueM_ID;ssss;KNG;sss;EZG_A;ffffff;EZG_VG;ffffff;EZG_tf;ffff;Datei;ssssssss;Kng_Verd;i;Sum_Verd;ffffff;Datei_Verd;ssssssss;PSI_1;fffff;CN;fffff;VorRg;fffff;Einw;iiiii;Qh;fffff;Qh_JGG;sss;Qh_WGG;sss;Qh_TGG;sss;Qg;fffff;Qg_JGG;sss;Qg_WGG;sss;Qg_TGG;sss;Qf;fffff;Qf_JGG;sss;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HYA;Hydraulic Elements;;"*Hydraulik (*.HYA)
+*=================
+* Wehrformen: 1 = breitkronig
+*             2 = dachfoermig
+*             3 = Hoehe/Weite = 1
+*             4 = Hoehe/Weite < 0.4
+*             5 = scharfkantig
+*|-----|-----|-----|---------------------------|-------------------------------------------|---------------------------------------------|
+*|     |     |     |    Wehrüberfall (1)       |               Rohrleitung(en) (2)         |                 Turbine (3)                 |
+*| HYA | WSP | Kng |Wehr- Wehr- Wehr-       Fak| Einl- Länge   D     A-   Um-    kB   Zeta |   P    Qmax  Qmin   Hoehe  Ver-  %von   eta |
+*| ID  |unten|     |Form  kante Breite  mue hue| kante              quer  fang             | Leistg                     lust  Qmax       |
+*|-----|-----|-----|---------------------------|-------------------------------------------|---------------------------------------------|
+*|  -  |KTRID| 1-3 | 1-5   mNN     m     -  KTR| mNN     m     mm     m2    m    mm        |   KW    m3/s  m3/s   mNN     -     %     -  |
+*|-<->-|-<->-|-<->-|-<->-<----->-<--->-<-->-<->|<---->-<---->-<--->-<--->-<--->-<--->-<--->|-<---->-<--->-<--->-<----->-<--->-<--->-<--->|
+ |  1  |     |  1  |  1      121    60 0.72    |                                           |                                             |
+*|-----|-----|-----|---------------------------|-------------------------------------------|---------------------------------------------|";"*Hydraulik (*.HYA)
+*=================
+* Wehrformen: 1 = breitkronig
+*             2 = dachfoermig
+*             3 = Hoehe/Weite = 1
+*             4 = Hoehe/Weite < 0.4
+*             5 = scharfkantig
+*|-----|-----|-----|---------------------------|-------------------------------------------|---------------------------------------------|
+*|     |     |     |    Wehrüberfall (1)       |               Rohrleitung(en) (2)         |                 Turbine (3)                 |
+*| HYA | WSP | Kng |Wehr- Wehr- Wehr-       Fak| Einl- Länge   D     A-   Um-    kB   Zeta |   P    Qmax  Qmin   Hoehe  Ver-  %von   eta |
+*| ID  |unten|     |Form  kante Breite  mue hue| kante              quer  fang             | Leistg                     lust  Qmax       |
+*|-----|-----|-----|---------------------------|-------------------------------------------|---------------------------------------------|
+*|  -  |KTRID| 1-3 | 1-5   mNN     m     -  KTR| mNN     m     mm     m2    m    mm        |   KW    m3/s  m3/s   mNN     -     %     -  |
+*|-<->-|-<->-|-<->-|-<->-<----->-<--->-<-->-<->|<---->-<---->-<--->-<--->-<--->-<--->-<--->|-<---->-<--->-<--->-<----->-<--->-<--->-<--->|";;;;;;;;*|-----|-----|-----|---------------------------|-------------------------------------------|---------------------------------------------|; | {} | {} | {} | {} {} {} {} {}|{} {} {} {} {} {} {}| {} {} {} {} {} {} {}|;23;BlueM_ID;sss;WSP;sss;Kng;sss;Wehrform;sss;Wehrkante;fffffff;Wehrbreite;fffff;mue;ffff;Fak_hue;sss;Einl_Kante;ffffff;Laenge;ffffff;D;fffff;A_quer;fffff;Umfang;fffff;kB;fffff;Zeta;fffff;P_Leistg;ffffff;Qmax;fffff;Qmin;fffff;Hoehe;fffffff;Verlust;fffff;%_von_Qmax;fffff;eta;fffff;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RUE;Rain Overflow Discharge;;"*Regenüberläufe (*.RUE)
+*=====================
+*
+*|------------|-------------------------------|--------------|-----|-----|
+*| Bez.   Kng |       N a e h e r u n g       |  Kennlinie   | Ktr | Str |
+*|      |     | Schwellenwert| proz. Aufteilg |              |     |     |
+*|      |     |  Qdr   Trenn |(gibt nach Qdr) |  Qzu    Qdr  | ID  | ZR  |
+*|------------|-------------------------------|--------------|-----|-----|
+*|  -   | 1-3 |  l/s    -    |       %        |   l/s   l/s  |  -  |  -  |
+*|-<-->-|-<->-|-<----><---->-|-<------------>-|-<----><---->-|-<->-|-<->-|
+*|   A  |  B  |   C      D   |       E        |    F     G   |  H  |  I  |
+*|------------|-------------------------------|--------------|-----|-----|";"*Regenüberläufe (*.RUE)
+*=====================
+*
+*|------------|-------------------------------|--------------|-----|-----|
+*| Bez.   Kng |       N a e h e r u n g       |  Kennlinie   | Ktr | Str |
+*|      |     | Schwellenwert| proz. Aufteilg |              |     |     |
+*|      |     |  Qdr   Trenn |(gibt nach Qdr) |  Qzu    Qdr  | ID  | ZR  |
+*|------------|-------------------------------|--------------|-----|-----|
+*|  -   | 1-3 |  l/s    -    |       %        |   l/s   l/s  |  -  |  -  |
+*|-<-->-|-<->-|-<----><---->-|-<------------>-|-<----><---->-|-<->-|-<->-|";;;;;;;;*|------------|-------------------------------|--------------|-----|-----|; | {} | {} | {}{} | {} | {}{} | {} | {} |;10;BlueM_ID;ssss;Kng;sss;Schwellenwert_Qdr;ffffff;Schwellenwert_Trenn;ffffff;proz_Aufteilg;ffffffffffffff;Qzu;ffffff;Qdr;ffffff;ID;sss;ZR;sss;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TAL;Dams;"The Identification of a dam must begin with a ""T"".\nThe TAL-file consists of several tables:\n1 as overview and 6 per element.";"*Talsperren (*.TAL)
+*==================
+*
+*|------|------------|------------|-----|----------|-----------------------|-----------------------|
+*| Bez  |  Anfangs-  |  Maximal   | Ge- |  Sohle   |      HW-Entlastung    |      Krone            |
+*|      |  volumen   |  volumen   |wicht|          |   Kante       S-Vol   |   Kante       S-Vol   |
+*|------|------------|------------|-----|----------|-----------------------|-----------------------|
+*|      | [Tsd.cbm]  | [Tsd.cbm]  |  -  |   [mNN]  |   [mNN]  | [Tsd.cbm]  |   [mNN]  | [Tsd.cbm]  |
+*|-<-->-|-<-------->-|-<-------->-|-<->-|-<------>-|-<------>-|-<-------->-|-<------>-|-<-------->-|
+ | T170 |        600 |       3650 |  1  |    114.9 |   118.25 |       2650 |   119.25 |       3650 |
+ | THRB |        500 |       2800 |  1  |      116 |      121 |       2500 |      122 |       2800 |
+*|------|------------|------------|-----|----------|-----------------------|-----------------------|
+*
+0Funktionen für T170
+*===================
+*
+*|------|------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*| Bez.-|       Beschreibung           | F u n k t i o n e n                |      |     |            |                              |                                            |
+*|------|                              | Anz. Anz. Anz. Anz.                |      |     |            |                              |                                            |
+*|   -  |                              | Spe  Str  Grz  Abh                 |      |     |            |                              |                                            |
+*|-<-->-|-<-------------------------->-|-<->--<->--<->--<->-----------------|------|-----|------------|------------------------------|--------------------------------------------|
+ | T170 | EMTALSPER                    |  0    1    0    0                  |      |     |            |                              |                                            | 
+*|      |------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+1|      |----------------------- SPEICHERKENNLINIE -------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                              |  WSP     Volumen    Oberfl.        |      |     |            |                              |                                            |
+*|      |                              |  mNN     Tsd.cbm      ha           |      |     |            |                              |                                            |
+*|      |------------------------------|-<----->-<-------->-<------>--------|------|-----|------------|------------------------------|--------------------------------------------|
+ |      |                              |   114.9          0        0        |      |     |            |                              |                                            |
+ |      |                              |     115 0.00273973      0.1        |      |     |            |                              |                                            |
+ |      |                              |   116.5  0.2739726      100        |      |     |            |                              |                                            |
+ |      |                              |     117        0.4      146        |      |     |            |                              |                                            |
+ |      |                              |   117.5  0.5232877      191        |      |     |            |                              |                                            |
+ |      |                              |     118  0.6493151      237        |      |     |            |                              |                                            |
+ |      |                              |  118.25  0.7260274      265        |      |     |            |                              |                                            |
+ |      |                              |  119.25          1      365        |      |     |            |                              |                                            |
+*|      |------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+2|      |------------------------- GRENZFUNKTIONEN -------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |                                              |      |     |            |                              |                                            |
+*|      |     Funktion       | lfd Fkt | Min-Wert Zeiger                    |      |     |            |                              |                                            |
+*|      |                    | Nr. Kng |  m3/s    Nr.                       |      |     |    y-Pos   |                              |                                            |
+*|      |<------------------>|-<->-<->-|-<------>-<->-----------------------|------|-----|-<-------->-|<-------------><------------->|--------------------------------------------|
+*|      |--------------------|---------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+3|      |----------------- SPEICHEROBERFLAECHEN - FUNKTIONEN ---------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |         |     |          |     |             |  (1) | (2) |            |                              |                                            |
+*|      |     Funktion       |Bezug ist| Fkt |          | Kng | JGG WGG TGG |  QM  |Datei|            |                              |                                            |
+*|      |                    | Oberfl. | Kng |          | 1/2 |  -   -   -  | mm/d | Nr. |            |                              |                                            |
+*|      |<------------------>|---------|-<->-|----------|-<->-|-<->-<->-<->-|<---->|-<->-|------------|------------------------------|--------------------------------------------|
+*|      |--------------------|---------|-----|----------|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+4|      |----------------------- STEUER - FUNKTIONEN ---|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |         |     |          |A    |(3,4)        |  (1) | (2) |            |                              |        W E R T E   A E N D E R U N G       |
+*|      |     Funktion       |gibt KTR | Fkt | S Z F Grz| Kng |HYA  J  W  T |  QM  |Datei|            |      Achsenbeschriftung      |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|      |                    |nach ID  | Kng | J/N   ID | 1-4 |ID   GG GG GG| m3/s | Nr. |   y-Pos    |    X-Achse       Y-Achse     |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|      |<------------------>|<-->-<-->|-<->-|-+-+-+-<->|+<->-|<->-<-><-><->|<---->|-<->-|-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|
+ |      |Regelabgabe         |S171     | QR1 | J N 3    |J 1  |             |     1|     |   699.6251 |                              |  0|  4      1|01.01.1990      |            |
+*|      |--------------------|---------|-----|----------|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+5|      |--------------------- INTERNE ABHAENGIGKEITEN ---------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                                                                   |      |     |            |                              |                                            |
+*|      | Fkt |    QM   JGG WGG TGG |   Speicher  JGG WGG | Fkt Fkt Fkt Fkt |      |     |            |                              |                                            |
+*|      | Kng |   cbm/s             |   Tsd.cbm           | Nam Nam Nam Nam |      |     |            |                              |                                            |
+*|      |-<->-|--<---->-<->-<->-<->-|--<-------->-<->-<->-|-<->-<->-<->-<->-|------|-----|------------|------------------------------|--------------------------------------------|
+*|------|-----|---------------------|---------------------|-----------------|------|-----|------------|------------------------------|--------------------------------------------|
+*
+0Funktionen für THRB
+*===================
+*
+*|------|------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*| Bez.-|       Beschreibung           | F u n k t i o n e n                |      |     |            |                              |                                            |
+*|------|                              | Anz. Anz. Anz. Anz.                |      |     |            |                              |                                            |
+*|   -  |                              | Spe  Str  Grz  Abh                 |      |     |            |                              |                                            |
+*|-<-->-|-<-------------------------->-|-<->--<->--<->--<->-----------------|------|-----|------------|------------------------------|--------------------------------------------|
+ | THRB | Hochwasserrückhaltebecken    |  0    3    0    0                  |      |     |            |
+*|      |------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+1|      |----------------------- SPEICHERKENNLINIE -------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                              |  WSP     Volumen    Oberfl.        |      |     |            |                              |                                            |
+*|      |                              |  mNN     Tsd.cbm      ha           |      |     |            |                              |                                            |
+*|      |------------------------------|-<----->-<-------->-<------>--------|------|-----|------------|------------------------------|--------------------------------------------|
+ |      |                              |     116          0        0        |      |     |            |                              |                                            |
+ |      |                              |   117.6      0.152       60        |      |     |            |                              |                                            |
+ |      |                              |   118.5  0.2739726      100        |      |     |            |                              |                                            |
+ |      |                              |   119.4        0.4      146        |      |     |            |                              |                                            |
+ |      |                              |   120.2  0.5232877      191        |      |     |            |                              |                                            |
+ |      |                              |     121  0.6493151      237        |      |     |            |                              |                                            |
+ |      |                              |   121.5        0.8      290        |      |     |            |                              |                                            |
+ |      |                              |     122          1      365        |      |     |            |                              |                                            |
+*|      |------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+2|      |------------------------- GRENZFUNKTIONEN -------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |                                              |      |     |            |                              |                                            |
+*|      |     Funktion       | lfd Fkt | Min-Wert Zeiger                    |      |     |            |                              |                                            |
+*|      |                    | Nr. Kng |  m3/s    Nr.                       |      |     |    y-Pos   |                              |                                            |
+*|      |<------------------>|-<->-<->-|-<------>-<->-----------------------|------|-----|-<-------->-|<-------------><------------->|--------------------------------------------|
+*|      |--------------------|---------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+3|      |----------------- SPEICHEROBERFLAECHEN - FUNKTIONEN ---------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |         |     |          |     |             |  (1) | (2) |            |                              |                                            |
+*|      |     Funktion       |Bezug ist| Fkt |          | Kng | JGG WGG TGG |  QM  |Datei|            |                              |                                            |
+*|      |                    | Oberfl. | Kng |          | 1/2 |  -   -   -  | mm/d | Nr. |            |                              |                                            |
+*|      |<------------------>|---------|-<->-|----------|-<->-|-<->-<->-<->-|<---->|-<->-|------------|------------------------------|--------------------------------------------|
+*|      |--------------------|---------|-----|----------|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+4|      |----------------------- STEUER - FUNKTIONEN ---|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |         |     |          |A    |(3,4)        |  (1) | (2) |            |                              |        W E R T E   A E N D E R U N G       |
+*|      |     Funktion       |gibt KTR | Fkt | S Z F Grz| Kng |HYA  J  W  T |  QM  |Datei|            |      Achsenbeschriftung      |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|      |                    |nach ID  | Kng | J/N   ID | 1-4 |ID   GG GG GG| m3/s | Nr. |   y-Pos    |    X-Achse       Y-Achse     |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|      |<------------------>|<-->-<-->|-<->-|-+-+-+-<->|+<->-|<->-<-><-><->|<---->|-<->-|-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|
+ |      |Abgabe              |SHRB y02 | QA1 | J N 3    |N 1  |             |     1|     |   2627.595 |                              |  0|  4      1|01.01.1990      |            |
+ |      |Regelabgabe         |SHRB     | QR1 | J N 3    |J 1  |             |     1|     |   1315.254 |                              |  0|  4      1|01.01.1990      |            |
+ |      |Hochwasserentlastung|SHRB     | QH1 | N N 3    |J 3  | 1           |     1|     |            |                              |  0|  4      1|01.01.1990      |            |
+*|      |--------------------|---------|-----|----------|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+5|      |--------------------- INTERNE ABHAENGIGKEITEN ---------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                                                                   |      |     |            |                              |                                            |
+*|      | Fkt |    QM   JGG WGG TGG |   Speicher  JGG WGG | Fkt Fkt Fkt Fkt |      |     |            |                              |                                            |
+*|      | Kng |   cbm/s             |   Tsd.cbm           | Nam Nam Nam Nam |      |     |            |                              |                                            |
+*|      |-<->-|--<---->-<->-<->-<->-|--<-------->-<->-<->-|-<->-<->-<->-<->-|------|-----|------------|------------------------------|--------------------------------------------|
+*|------|-----|---------------------|---------------------|-----------------|------|-----|------------|------------------------------|--------------------------------------------|
+*
+*";"*Talsperren (*.TAL)
+*==================
+*
+*|------|------------|------------|-----|----------|-----------------------|-----------------------|
+*| Bez  |  Anfangs-  |  Maximal   | Ge- |  Sohle   |      HW-Entlastung    |      Krone            |
+*|      |  volumen   |  volumen   |wicht|          |   Kante       S-Vol   |   Kante       S-Vol   |
+*|------|------------|------------|-----|----------|-----------------------|-----------------------|
+*|      | [Tsd.cbm]  | [Tsd.cbm]  |  -  |   [mNN]  |   [mNN]  | [Tsd.cbm]  |   [mNN]  | [Tsd.cbm]  |
+*|-<-->-|-<-------->-|-<-------->-|-<->-|-<------>-|-<------>-|-<-------->-|-<------>-|-<-------->-|";"0Funktionen für XXXX
+*===================
+*
+*|------|------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*| Bez.-|       Beschreibung           | F u n k t i o n e n                |      |     |            |                              |                                            |
+*|------|                              | Anz. Anz. Anz. Anz.                |      |     |            |                              |                                            |
+*|   -  |                              | Spe  Str  Grz  Abh                 |      |     |            |                              |                                            |
+*|-<-->-|-<-------------------------->-|-<->--<->--<->--<->-----------------|------|-----|------------|------------------------------|--------------------------------------------|";"*|      |------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+1|      |----------------------- SPEICHERKENNLINIE -------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                              |  WSP     Volumen    Oberfl.        |      |     |            |                              |                                            |
+*|      |                              |  mNN     Tsd.cbm      ha           |      |     |            |                              |                                            |
+*|      |------------------------------|-<----->-<-------->-<------>--------|------|-----|------------|------------------------------|--------------------------------------------|";"*|      |------------------------------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+2|      |------------------------- GRENZFUNKTIONEN -------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |                                              |      |     |            |                              |                                            |
+*|      |     Funktion       | lfd Fkt | Min-Wert Zeiger                    |      |     |            |                              |                                            |
+*|      |                    | Nr. Kng |  m3/s    Nr.                       |      |     |    y-Pos   |                              |                                            |
+*|      |<------------------>|-<->-<->-|-<------>-<->-----------------------|------|-----|-<-------->-|<-------------><------------->|--------------------------------------------|";"*|      |--------------------|---------|------------------------------------|------|-----|------------|------------------------------|--------------------------------------------|
+3|      |----------------- SPEICHEROBERFLAECHEN - FUNKTIONEN ---------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |         |     |          |     |             |  (1) | (2) |            |                              |                                            |
+*|      |     Funktion       |Bezug ist| Fkt |          | Kng | JGG WGG TGG |  QM  |Datei|            |                              |                                            |
+*|      |                    | Oberfl. | Kng |          | 1/2 |  -   -   -  | mm/d | Nr. |            |                              |                                            |
+*|      |<------------------>|---------|-<->-|----------|-<->-|-<->-<->-<->-|<---->|-<->-|------------|------------------------------|--------------------------------------------|";"*|      |--------------------|---------|-----|----------|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+4|      |----------------------- STEUER - FUNKTIONEN ---|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                    |         |     |          |A    |(3,4)        |  (1) | (2) |            |                              |        W E R T E   A E N D E R U N G       |
+*|      |     Funktion       |gibt KTR | Fkt | S Z F Grz| Kng |HYA  J  W  T |  QM  |Datei|            |      Achsenbeschriftung      |Kng|Intervall    Bezugsdatum   | konst.Gang |
+*|      |                    |nach ID  | Kng | J/N   ID | 1-4 |ID   GG GG GG| m3/s | Nr. |   y-Pos    |    X-Achse       Y-Achse     |0-3|Typ Faktor   Bezugsdatum   |JGG WGG TGG |
+*|      |<------------------>|<-->-<-->|-<->-|-+-+-+-<->|+<->-|<->-<-><-><->|<---->|-<->-|-<-------->-|<-------------><------------->|<->|<->-<---->-TT.MM.JJJJ hh:mm|<->-<->-<->-|";"*|      |--------------------|---------|-----|----------|-----|-------------|------|-----|------------|------------------------------|--------------------------------------------|
+5|      |--------------------- INTERNE ABHAENGIGKEITEN ---------------------|------|-----|------------|------------------------------|--------------------------------------------|
+*|      |                                                                   |      |     |            |                              |                                            |
+*|      | Fkt |    QM   JGG WGG TGG |   Speicher  JGG WGG | Fkt Fkt Fkt Fkt |      |     |            |                              |                                            |
+*|      | Kng |   cbm/s             |   Tsd.cbm           | Nam Nam Nam Nam |      |     |            |                              |                                            |
+*|      |-<->-|--<---->-<->-<->-<->-|--<-------->-<->-<->-|-<->-<->-<->-<->-|------|-----|------------|------------------------------|--------------------------------------------|";"*|------|-----|---------------------|---------------------|-----------------|------|-----|------------|------------------------------|--------------------------------------------|
+*";"*|------|------------|------------|-----|----------|-----------------------|-----------------------|
+*";" | {} | {} | {} | {} | {} | {} | {} | {} | {} |
+ | {} | {} | {}  {}  {}  {}                 |      |     |            |                              |                                            |
+ |      |                              | {} {} {}        |      |     |            |                              |                                            |
+ |      |{}| {} {} | {} {}                       |      |     | {} |{}{}|                                            |
+ |      |{}|         | {} |          | {} | {} {} {} |{}| {} |            |                              |                                            |
+ |      |{}|{} {}| {} | {} {} {} {}|{}{} |{} {}{}{}|{}| {} | {} |{}{}|{}|{} {}|{}|{} {} {} |
+ |      | {} |>={} {} {} {} |<={} {} {} | {} {} {} {} |      |     |            |                              |                                            |";73;BlueM_ID;ssss;Anfangsvolumen;ffffffffff;Maximalvolumen;ffffffffff;Gewicht;iii;Sohle;ffffffff;HW_Entl_Kante;ffffffff;HW_Entl_SVol;ffffffffff;Krone_Kante;ffffffff;Krone_Svol;ffffffffff;0_Bez;ssss;0_Beschreibung;ssssssssssssssssssssssssssss;0_Funk_Anz_Spe;iii;0_Funk_Anz_Str;iii;0_Funk_Anz_Grz;iii;0_Funk_Anz_Abh;iii;1_Speicherkennlinie_WSP;fffffff;1_Speicherkennlinie_Vol;ffffffffff;1_Speicherkennlinie_Oberfl;ffffffff;2_Grenzf_Funktion;ssssssssssssssssssss;2_Grenzf_lfd_Nr;iii;2_Grenzf_Fkt_Kng;sss;2_Grenzf_Min_Wert;ffffffff;2_Grenzf_Zeiger_Nr;sss;2_Grenzf_y_Pos;ffffffffff;2_Grenzf_Achsbesch_X;sssssssssssssss;2_Grenzf_Achsbesch_Y;sssssssssssssss;3_Sp_Oberfl_Funktion;ssssssssssssssssssss;3_Sp_Oberfl_Fkt_Kng;sss;3_Sp_Oberfl_Kng_1_2;sss;3_Sp_Oberfl_JGG;sss;3_Sp_Oberfl_WGG;sss;3_Sp_Oberfl_TGG;sss;3_Sp_Oberfl_QM;ffffff;3_Sp_Oberfl_Datei_Nr;sss;4_Steuer_Funktion;ssssssssssssssssssss;4_Steuer_gibt_nach;ssss;4_Steuer_KTR_ID;ssss;4_Steuer_Fkt_Kng;sss;4_Steuer_S;Y;4_Steuer_Z;Y;4_Steuer_F;s;4_Steuer_Grz;sss;4_Steuer_A;Y;4_Steuer_Kng_1_4;sss;4_Steuer_HYA_ID;sss;4_Steuer_JGG;sss;4_Steuer_WGG;sss;4_Steuer_TGG;sss;4_Steuer_QM;ffffff;4_Steuer_Datei_Nr;sss;4_Steuer_y_Pos;ffffffffff;4_Steuer_Achsenbesch_X;sssssssssssssss;4_Steuer_Achsenbesch_Y;sssssssssssssss;4_Steuer_Kng_0_3;sss;4_Steuer_Intervall_Typ;sss;4_Steuer_Intervall_Faktor;ffffff;4_Steuer_Bezugsdatum;TT.MM.JJJJ hh:mm;4_Steuer_W_Aenderung_JGG;sss;4_Steuer_W_Aenderung_WGG;sss;4_Steuer_W_Aenderung_TGG;sss;5_Interne_Abh_Fkt_Kng;sss;5_Interne_Abh_QM;ffffff;5_Interne_Abh_QM_JGG;sss;5_Interne_Abh_QM_WGG;sss;5_Interne_Abh_QM_TGG;sss;5_Interne_Abh_Speicher;ffffffffff;5_Interne_Abh_Speicher_JGG;sss;5_Interne_Abh_Speicher_WGG;sss;5_Interne_Abh_fkt_Nam_1;sss;5_Interne_Abh_fkt_Nam_2;sss;5_Interne_Abh_fkt_Nam_3;sss;5_Interne_Abh_fkt_Nam_4;sss;Output_to;ssss;;;;;;;;;;;;;;
+TRS;Transport routes;The maximum number of lines that can be entered\nper transport element is 26! (TRS_MAXSTZ);"*Transportelemente (*.TRS)
+*=========================
+*
+*|------|-----|------|------|----------------------|---------------------------------------|--------------------|--------|------------------------|
+*|  Bez | Kng |      |Kng =1|      Kng = 2,5       |      Kng 3 = offenes Gerinne          |       Kng = 4      |   MQ   |     Temperatur         |
+*|      |     |Laenge|Trans-|     Rohrleitung      |Vorland   --Links---  --Rechts---      |      Kennlinie     |        |                        |
+*|      |     |      |lation|P B/D Aquer Js   kb   | v  Hoehe Breite Kst  Breite  Kst  Js  | Hoehe A-quer Qab   |        |Kng Tem JGG TGG  Datei  |
+*|------|-----|------|------|----------------------|---------------------------------------|--------------------|--------|------------------------|
+*|  -   | 1-5 |  m   | min  |   m   m^2  °/oo  mm  |     m     m   m^.3/s  m   m^.3/s °/oo |   m     m^2  m^3/s | m^3/s  |1/2 °C   -   -   Nummer |
+*|-<-->-|-<->-|<---->|<---->|+<---><---><---><--->-|-+-<----><----><--->-<----><--->-<--->-|-<----><----><---->-|-<---->-|-+-<-->-<->-<->-<------>|
+*|   A  |  B  |   C  |   D  |S  E    F    G    H   |     I     J     K      L    M     N   |   O     P     Q    |   R    | S    T  V   W        X |
+ | S100 |  3  |     1|      |                      |        0 0.009 38.2  1.813   26     2 |                    |      1 | 2   20             1   |
+ |      |     |      |      |                      |      0.5 0.009 38.2      2 38.2       |                    |        |                        |
+ |      |     |      |      |                      |    0.981 0.446   26  2.211   34       |                    |        |                        |
+ |      |     |      |      |                      |    0.994 0.452   26  2.313   34       |                    |        |                        |
+ |      |     |      |      |                      |    1.133 1.443   34  3.403   34       |                    |        |                        |
+ |      |     |      |      |                      |    1.152 1.578   34  4.983   34       |                    |        |                        |
+ |      |     |      |      |                      | v  1.253 3.195   34 13.394   34       |                    |        |                        |
+ | SEND |  1  |     1|  1440|                      |                                       |                    |      1 | 2   20             1   |
+*|------|-----|------|------|----------------------|---------------------------------------|--------------------|--------|------------------------|";"*Transportelemente (*.TRS)
+*=========================
+*
+*|------|-----|------|------|----------------------|---------------------------------------|--------------------|--------|------------------------|
+*|  Bez | Kng |      |Kng =1|      Kng = 2,5       |      Kng 3 = offenes Gerinne          |       Kng = 4      |   MQ   |     Temperatur         |
+*|      |     |Laenge|Trans-|     Rohrleitung      |Vorland   --Links---  --Rechts---      |      Kennlinie     |        |                        |
+*|      |     |      |lation|P B/D Aquer Js   kb   | v  Hoehe Breite Kst  Breite  Kst  Js  | Hoehe A-quer Qab   |        |Kng Tem JGG TGG  Datei  |
+*|------|-----|------|------|----------------------|---------------------------------------|--------------------|--------|------------------------|
+*|  -   | 1-5 |  m   | min  |   m   m^2  °/oo  mm  |     m     m   m^.3/s  m   m^.3/s °/oo |   m     m^2  m^3/s | m^3/s  |1/2 °C   -   -   Nummer |
+*|-<-->-|-<->-|<---->|<---->|+<---><---><---><--->-|-+-<----><----><--->-<----><--->-<--->-|-<----><----><---->-|-<---->-|-+-<-->-<->-<->-<------>|";;;;;;;;*|------|-----|------|------|----------------------|---------------------------------------|--------------------|--------|------------------------|; | {} | {} |{}|{}|{}{}{}{}{} | {} {}{}{} {}{} {} | {}{}{} | {} | {} {} {} {} {}|;26;BlueM_ID;ssss;Kng;sss;Laenge;iiiiii;translation_time;iiiiii;Rohrleitung_P;s;Rohrleitung_B_D;fffff;Rohrleitung_Aquer;fffff;Rohrleitung_Js;fffff;Rohrleitung_kb;fffff;Vorland;s;Hoehe;ffffff;Links_Breite;ffffff;Links_Kst;fffff;Rechts_Breite;ffffff;Rechts_Kst;fffff;offenes_Gerinne_Js;fffff;Kennlinie_Hoehe;ffffff;Kennlinie_A_quer;ffffff;Kennlinie_Qab;ffffff;MQ;iiiiii;Temp_Kng;i;Temp_Tem;ffff;Temp_JGG;sss;Temp_TGG;sss;Temp_Datei;ssssssss;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+URB;Consumers;;"*Verbraucher (*.URB)
+*===================
+*
+*|------|---------------------------|------|--------------------------------------|---------------------------|
+*|      |          Z U S C H U S S  | Ret- |            V E R B R A U C H         |         B E D A R F       |
+*| Bez. | Kng  konst.Ganglinie Datei|ention| Kng Schwellenwert proz.  Kennlinie   | Kng konst. Ganglinie Datei|
+*|------|---------------------------|------|--------------------------------------|---------------------------|
+*|      |        QM   JGG WGG   Nr. | Std  |      Qswell Trenn Auft.  Qzu    Qab  |      QM    JGG WGG   Nr.  |
+*|  -   | 1/2   m3/s   -   -     -  |  h   | 1-3   m3/s    -     %    m3/s  m3/s  | 1/2  m3/s   -   -     -   |
+*|-<-->-|-<->--<---->-<->-<->---<->-|<--->-|-<->--<---->-<--->-<--->-<----><---->-|-<->-<---->-<->-<->---<->--|
+*|  A   |  B      C    D   E     F  |  G   |  H     I      J     K      L     M   |  N     O    P   Q     R   |
+*|------|---------------------------|------|--------------------------------------|---------------------------|";"*Verbraucher (*.URB)
+*===================
+*
+*|------|---------------------------|------|--------------------------------------|---------------------------|
+*|      |          Z U S C H U S S  | Ret- |            V E R B R A U C H         |         B E D A R F       |
+*| Bez. | Kng  konst.Ganglinie Datei|ention| Kng Schwellenwert proz.  Kennlinie   | Kng konst. Ganglinie Datei|
+*|------|---------------------------|------|--------------------------------------|---------------------------|
+*|      |        QM   JGG WGG   Nr. | Std  |      Qswell Trenn Auft.  Qzu    Qab  |      QM    JGG WGG   Nr.  |
+*|  -   | 1/2   m3/s   -   -     -  |  h   | 1-3   m3/s    -     %    m3/s  m3/s  | 1/2  m3/s   -   -     -   |
+*|-<-->-|-<->--<---->-<->-<->---<->-|<--->-|-<->--<---->-<--->-<--->-<----><---->-|-<->-<---->-<->-<->---<->--|";;;;;;;;*|------|---------------------------|------|--------------------------------------|---------------------------|; | {} | {}  {} {} {}   {} |{} | {}  {} {} {} {}{} | {} {} {} {}   {}  |;19;BlueM_ID;ssss;Zuschuss_Kng;sss;Zuschuss_QM;ffffff;Zuschuss_JGG;sss;Zuschuss_WGG;sss;Zuschuss_Datei;sss;Retention;iiiii;Verbrauch_Kng;sss;Verbrauch_Schwellenwert;ffffff;Verbrauch_Trenn;fffff;Verbraucht_Auft;fffff;Verbrauch_Qzu;ffffff;Verbrauch_Qab;ffffff;Bedarf_Kng;sss;Bedarf_QM;ffffff;Bedarf_JGG;sss;Bedarf_WGG;sss;Bedarf_Datei;sss;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+VER;Branching;;"*Verzweigungen (*.VER)
+*=====================
+*
+*|------------|-------------------------------|--------------|-----------------------|
+*| Bez.   Kng |       N a e h e r u n g       | 3 Kennlinie  |  Regeln und Steuern   |
+*|      |     | 1 Schwellenw.| 2 proz.Aufteilg|              | KTR                   |
+*|      |     | Qswell Trenn |(gibt nach Qab1)|  Qzu    Qab  | ID  Faktor JGG WGG TGG|
+*|------------|-------------------------------|--------------|-----------------------|
+*|  -   | 1-3 |  m3/s   -    |       %        |  m3/s  m3/s  |  -    -     -   -   - |
+*|-<-->-|-<->-|-<----><---->-|-<------------>-|-<----><---->-|-<->-<---->-<->-<->-<->|
+*|   A  |  B  |   C      D   |       E        |    F     G   |  H    I     J   K   L |
+ | V001 |  1  |  0.03    1   |                |              | y01                   |
+ | V002 |  2  |              |      50        |              | y01                   |
+ | V003 |  3  |              |                |      0     0 | y01                   |
+ |      |     |              |                |   0.03 0.030 |                       |
+ |      |     |              |                |   0.04 0.032 |                       |
+ |      |     |              |                |   0.10 0.033 |                       |
+*|------------|-------------------------------|--------------|-----------------------|";"*Verzweigungen (*.VER)
+*=====================
+*
+*|------------|-------------------------------|--------------|-----------------------|
+*| Bez.   Kng |       N a e h e r u n g       | 3 Kennlinie  |  Regeln und Steuern   |
+*|      |     | 1 Schwellenw.| 2 proz.Aufteilg|              | KTR                   |
+*|      |     | Qswell Trenn |(gibt nach Qab1)|  Qzu    Qab  | ID  Faktor JGG WGG TGG|
+*|------------|-------------------------------|--------------|-----------------------|
+*|  -   | 1-3 |  m3/s   -    |       %        |  m3/s  m3/s  |  -    -     -   -   - |
+*|-<-->-|-<->-|-<----><---->-|-<------------>-|-<----><---->-|-<->-<---->-<->-<->-<->|";;;;;;;;*|------------|-------------------------------|--------------|-----------------------|; | {} | {} | {}{} | {} | {}{} | {} {} {} {} {}|;13;BlueM_ID;ssss;Kng;sss;Naeherung_Qswell;ffffff;Naeherung_Trenn;ffffff;Naeherung_%;ffffffffffffff;Kennlinie_Qzu;ffffff;Kennlinie_Qab;ffffff;ID;sss;Faktor;ffffff;JGG;sss;WGG;sss;TGG;sss;Output_to;ssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BOA;Soil texture;;"*Bodenarten (*.BOA)
+*===================
+*
+*|------|---------------------------------------------|------------------------------|
+*|  ID  |           Bodenart-Kenngroessen             |         Beschreibung         |
+*|------|---------------------------------------------|------------------------------|
+*|      |Typ   WP    FK    GPV     kf   maxInf maxKap |                              |
+*|   -  | -  mm/m   mm/m   mm/m   mm/h   mm/h   mm/h  |                   -          |
+*|-<-->-|-+-<---->-<---->-<---->-<---->-<---->-<---->-|-<-------------------------->-|
+ |    1 | 2      1     63    133  1.176  8.618      0 | A019/4110                    |
+ |    2 | 2      1   59.5  134.5   0.42  7.909      0 | A020/4415                    |
+ |    3 | 2      1   70.5    150  1.081   7.74      0 | A021/4120                    |
+ |    4 | 2      1     67    148  0.454   9.59      0 | A022/4130                    |
+ |    5 | 2      1   53.5    142  1.345  9.372      0 | A023/4210                    |
+ |    6 | 2      1   58.5    152  1.421  7.661      0 | A024/4220                    |
+ |    7 | 2      1   61.5    130  0.603  7.176      0 | A025/4230                    |
+*|-<-->-|-+-<---->-<---->-<---->-<---->-<---->-<---->-|-<-------------------------->-|";"*Bodenarten (*.BOA)
+*===================
+*
+*|------|---------------------------------------------|------------------------------|
+*|  ID  |           Bodenart-Kenngroessen             |         Beschreibung         |
+*|------|---------------------------------------------|------------------------------|
+*|      |Typ   WP    FK    GPV     kf   maxInf maxKap |                              |
+*|   -  | -  mm/m   mm/m   mm/m   mm/h   mm/h   mm/h  |                   -          |
+*|-<-->-|-+-<---->-<---->-<---->-<---->-<---->-<---->-|-<-------------------------->-|";;;;;;;;*|-<-->-|-+-<---->-<---->-<---->-<---->-<---->-<---->-|-<-------------------------->-|; | {} | {} {} {} {} {} {} {} | {} |;9;ID;iiii;Typ;i;WP;ffffff;FK;ffffff;GPV;ffffff;kf;ffffff;maxInf;ffffff;maxKap;ffffff;Beschreibung;ssssssssssssssssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BOD;Soil types;;"*Bodentypen (*.BOD)
+*==================
+*
+*|------|-----------------------------------------------------------------|------------------------------|
+*| ID   |                     Boden-Kenngroessen                          |         Beschreibung         |
+*|------|-----------------------------------------------------------------|------------------------------|
+*|      |anzsch d1  boa1  d2  boa2  d3  boa3  d4  boa4  d5  boa5  d6  boa6|                              |
+*|  -   |  -     m    -    m    -    m    -    m    -    m    -    m    - |                   -          |
+*|-<-->-|-<->--<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->|-<-------------------------->-|
+ |    1 |   1     2   21                                                  | A039/5900                    |
+ |    2 |   1     2   84                                                  | A004/1310                    |
+ |    3 |   1     2   85                                                  | A005/1320                    |
+ |    4 |   1     2   86                                                  | A006/1410                    |
+ |    5 |   1     2   87                                                  | A007/1420                    |
+ |    6 |   1     2   88                                                  | A008/1900                    |
+ |    7 |   1     2   89                                                  | A009/2100                    |
+*|-<-->-|-<->--<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->|-<-------------------------->-|";"*Bodentypen (*.BOD)
+*==================
+*
+*|------|-----------------------------------------------------------------|------------------------------|
+*| ID   |                     Boden-Kenngroessen                          |         Beschreibung         |
+*|------|-----------------------------------------------------------------|------------------------------|
+*|      |anzsch d1  boa1  d2  boa2  d3  boa3  d4  boa4  d5  boa5  d6  boa6|                              |
+*|  -   |  -     m    -    m    -    m    -    m    -    m    -    m    - |                   -          |
+*|-<-->-|-<->--<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->|-<-------------------------->-|";;;;;;;;*|-<-->-|-<->--<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->-<-->|-<-------------------------->-|; | {} | {}  {} {} {} {} {} {} {} {} {} {} {} {}| {} |;15;ID;iiii;anzsch;fff;d1;ffff;boa1;ffff;d2;ffff;boa2;ffff;d3;ffff;boa3;ffff;d4;ffff;boa4;ffff;d5;ffff;boa5;ffff;d6;ffff;boa6;ffff;Beschreibung;ssssssssssssssssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EFL;Elementary surfaces;;"*Elementarflaechen (*.EFL)
+*=========================
+*  SimOpt Typ:
+*      1= einmal pro Tag, Oberflaechenabfluss mit SCS
+*      2= kontinuierlich pro dt
+*
+*|------|----------------------------|---------|------------------|-------|---|
+*|      |       Parameter            | SimOpt  | xPos  yPos Symbol|Diffuse|WEL|
+*| EZG  | Gef. Fläche  Bod  Lnz  CN  | Typ  mi |                  |Quellen|   |
+*|------|----------------------------|---------|------------------|-------|---|
+*|  -   |  %     %     ID   ID    -  | 1,2 j/n |                  |  ID   |J/N|
+*|-<-->-|-<-->-<---->-<-->-<-->-<-->-|--+----+-|<----><---->-<--->|<----->|<+>|
+ | A001 |    0    100   46    1   95 |  2    N |2190.81914.4     1|      0| J |
+ | A002 | 2.24    100   13    1   95 |  2    N |2210.21498.3     1|      0| J |
+ | A003 | 0.91    100   36    1   95 |  2    N |1812.9919.81     1|      0| J |
+ | A004 |    1    100    2    1   95 |  2    N |     0     0     1|      0| J |
+ | A005 |  1.2    100    3    1   95 |  2    N |     0     0     1|      0| J |
+ | A006 |    1    100    4    1   95 |  2    N |     0     0     1|      0| J |
+ | A007 |    1    100   46    1   95 |  2    N |1038.21351.4     1|      0| J |
+ | A008 | 1.03    100    6    1   95 |  2    N |     0     0     1|      0| J |
+ | A009 | 0.65    100    7    1   95 |  2    N |     0     0     1|      0| J |
+ | A010 | 0.76    100    8    1   95 |  2    N |     0     0     1|      0| J |
+*|-<-->-|-<-->-<---->-<-->-<-->-<-->-|--+----+-|<----><---->-<--->|<----->|<+>|";"*Elementarflaechen (*.EFL)
+*=========================
+*  SimOpt Typ:
+*      1= einmal pro Tag, Oberflaechenabfluss mit SCS
+*      2= kontinuierlich pro dt
+*
+*|------|----------------------------|---------|------------------|-------|---|
+*|      |       Parameter            | SimOpt  | xPos  yPos Symbol|Diffuse|WEL|
+*| EZG  | Gef. Fläche  Bod  Lnz  CN  | Typ  mi |                  |Quellen|   |
+*|------|----------------------------|---------|------------------|-------|---|
+*|  -   |  %     %     ID   ID    -  | 1,2 j/n |                  |  ID   |J/N|
+*|-<-->-|-<-->-<---->-<-->-<-->-<-->-|--+----+-|<----><---->-<--->|<----->|<+>|";;;;;;;;*|-<-->-|-<-->-<---->-<-->-<-->-<-->-|--+----+-|<----><---->-<--->|<----->|<+>|; | {} | {} {} {} {} {} |  {}    {} |{}{} {}|{}| {} |;13;EZG;ssss;Gef;ffff;Flaeche;iiiiii;Bod;iiii;Lnz;iiii;CN;iiii;SimOpt_Typ;i;SimOpt_mi;Y;xPos;ffffff;yPos;ffffff;Symbol;iiiii;Diffuse_Quellen_ID;iiiiiii;WEL;Y;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LNZ;Landuse;;"*Landnutzungen (*.LNZ)
+*=====================
+*
+*|------|---------------------------------------|------------------------------|
+*| ID   |       Bed.Grad  Bfl.Indx              |        Beschreibung          |
+*|------|---------------------------------------|------------------------------|
+*|      |  WE   BG   jgg  BFI  jgg LNZ  VG  Kst |                              |
+*|  -   |  m     %    -    -    -  jgg  %       |              -               |
+*|-<-->-|<--->-<--->-<->-<--->-<->-<->-<->-<--->|<---------------------------->|
+ |    1 |    2     1     88.45      3          0|alle Flächen                  |
+*|-<-->-|<--->-<--->-<->-<--->-<->-<->-<->-<--->|<---------------------------->|";"*Landnutzungen (*.LNZ)
+*=====================
+*
+*|------|---------------------------------------|------------------------------|
+*| ID   |       Bed.Grad  Bfl.Indx              |        Beschreibung          |
+*|------|---------------------------------------|------------------------------|
+*|      |  WE   BG   jgg  BFI  jgg LNZ  VG  Kst |                              |
+*|  -   |  m     %    -    -    -  jgg  %       |              -               |
+*|-<-->-|<--->-<--->-<->-<--->-<->-<->-<->-<--->|<---------------------------->|";;;;;;;;*|-<-->-|<--->-<--->-<->-<--->-<->-<->-<->-<--->|<---------------------------->|; | {} |{} {} {} {} {} {} {} {}|{}|;10;ID;iiii;WE;fffff;BG_%;fffff;BG_jgg;sss;BFI;fffff;BFI_jgg;sss;LNZ_jgg;sss;VG;fff;Kst;fffff;Beschreibung;ssssssssssssssssssssssssssssss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DIF;Diffuse sources;;"*Stoffkonzentrationen zur Berechnungen diffuser Quellen (*.DIF)
+*=============================================================
+*
+*|------|-------|-------------------------------------------------|
+*|  ID  |Abfluss|           Stoff                                 |
+*|------|-------|-------------------------------------------------|
+S|      |       |O2     T      BSB5   NH4+   NO3-   PO34-  StoffX |
+E|   -  |       |%      °C     mg/l   mg/l   mg/l   mg/l   mg/l   |
+*|-<-->-|<----->|<-----><-----><-----><-----><-----><-----><----->|
+ |   99 | O     |0      0      0      0      0      0      0      |
+ |   99 | Z     |0      0      0      0      0      0      0      |
+ |   99 | B     |0      0      0      0      0      0      0      |
+ |    1 | O     |1      2      3      4      5      6      7      |
+ |    1 | Z     |8      9      10     11     12     13     14     |
+ |    1 | B     |15     16     17     18     19     20     21     |
+ |    2 | O     |22     23     24     25     26     27     28     |
+ |    2 | Z     |29     30     31     32     33     34     35     |
+ |    2 | B     |36     37     38     39     40     41     42     |
+*|-<-->-|<----->|<-----><-----><-----><-----><-----><-----><----->|
+*
+*
+* Abflussarten
+* - O: Oberflaechenabfluss
+* - Z: Zwischenabfluss/Interflow
+* - B: Basisabfluss";"*Stoffkonzentrationen zur Berechnungen diffuser Quellen (*.DIF)
+*=============================================================
+*
+*|------|-------|-------------------------------------------------|
+*|  ID  |Abfluss|           Stoff                                 |
+*|------|-------|-------------------------------------------------|
+S|      |       |O2     T      BSB5   NH4+   NO3-   PO34-  StoffX |
+E|   -  |       |%      °C     mg/l   mg/l   mg/l   mg/l   mg/l   |
+*|-<-->-|<----->|<-----><-----><-----><-----><-----><-----><----->|";;;;;;;;"*|-<-->-|<----->|<-----><-----><-----><-----><-----><-----><----->|
+*
+*
+* Abflussarten
+* - O: Oberflaechenabfluss
+* - Z: Zwischenabfluss/Interflow
+* - B: Basisabfluss"; | {} |{}|{}{}{}{}{}{}{}|;9;ID;iiii;Abfluss;sssssss;O2(%);fffffff;T(°C);fffffff;BSB5(mg/l);fffffff;NH4+(mg/l);fffffff;NO3-(mg/l);fffffff;PO34-(mg/l);fffffff;StoffX(mg/l);fffffff;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
