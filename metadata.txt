@@ -3,17 +3,17 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Create BlueM Input Files
+name=BlueM.QGISInterface
 qgisMinimumVersion=3.16.11
-description=Create BlueM input files
-version=0.8
+description=QGIS plugin for creating input files for a BlueM.Sim model from GIS data
+version=1.0
 author=Martin Grosshaus
 email=mgrosshaus@gmail.com
 
-about=This plugin creates input files from your QGIS layers in a BlueM compatible format.
+about=This plugin creates input files from your QGIS layers in a BlueM.Sim compatible format.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/bluemodel/BlueM.QGISInterface/issues
+repository=https://github.com/bluemodel/BlueM.QGISInterface
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +23,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=BlueM, BlueM.Sim, modelling, model
 
-homepage=http://homepage
+homepage=https://github.com/bluemodel/BlueM.QGISInterface
 category=Plugins
 icon=icon.png
 # experimental flag
