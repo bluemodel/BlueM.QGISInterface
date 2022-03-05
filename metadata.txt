@@ -6,7 +6,7 @@
 name=BlueM.QGISInterface
 qgisMinimumVersion=3.16.11
 description=QGIS plugin for creating input files for a BlueM.Sim model from GIS data
-version=1.0
+version=1.1
 author=Martin Grosshaus
 email=mgrosshaus@gmail.com
 
@@ -20,7 +20,9 @@ repository=https://github.com/bluemodel/BlueM.QGISInterface
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=
+ * 1.1: renamed plugin to BlueM.QGISInterface
+ * 1.0: original version from Master Thesis of Martin Grosshaus
 
 # Tags are comma separated with spaces allowed
 tags=BlueM, BlueM.Sim, modelling, model, hydrology, water resources
