@@ -1792,7 +1792,7 @@ def export_tal_file_possible():
 # Export of user manual into target directory
 def export_user_manual():
 
-    user_manual_filename = "_USER_MANUAL_qgis_bluem_interface_plugin.pdf"
+    user_manual_filename = os.path.join("docs", "USER_MANUAL.pdf")
     source_path = os.path.dirname(__file__)
     target_directory = self.dlg.fw_export_path.filePath()
 
