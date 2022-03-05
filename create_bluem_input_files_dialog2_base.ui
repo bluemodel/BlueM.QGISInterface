@@ -37,7 +37,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Create BlueM Input Files</string>
+   <string>BlueM.QGISInterface</string>
   </property>
   <property name="styleSheet">
    <string notr="true">color: rgb(50, 50, 50);

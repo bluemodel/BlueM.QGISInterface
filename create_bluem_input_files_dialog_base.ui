@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Create BlueM Input Files</string>
+   <string>BlueM.QGISInterface</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_15">
    <property name="leftMargin">
