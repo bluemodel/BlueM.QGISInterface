@@ -23,10 +23,10 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=BlueM, BlueM.Sim, modelling, model
+tags=BlueM, BlueM.Sim, modelling, model, hydrology, water resources
 
 homepage=https://github.com/bluemodel/BlueM.QGISInterface
-category=Plugins
+category=Modelling
 icon=icon.png
 # experimental flag
 experimental=True
