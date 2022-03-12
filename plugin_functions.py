@@ -167,8 +167,7 @@ def prepare_plugin(add_self, first_start):
     # EXECUTION
 
     # import information about BlueM input file types from csv into array
-    with open(os.path.dirname(__file__) + str("\\")
-              + "inputfiles_overview.csv", 'r', encoding="ANSI") as file:
+    with open(os.path.join(os.path.dirname(__file__), "inputfiles_overview.csv"), 'r', encoding="ANSI") as file:
         inputfiles_overview_data = list(csv.reader(file, delimiter=";"))
 
     # put all information into array
@@ -1316,10 +1315,9 @@ def export_tal_file_failed(reason):
 
     # get export path
     export_path = self.dlg.fw_export_path.filePath()
-    export_path = export_path.rstrip(str("\\"))
 
     # construct filename
-    filename = export_path + "\\" + "_TAL_export_failed" + ".tal"
+    filename = os.path.join(export_path, "_TAL_export_failed.tal")
 
     # write file with warning and explanation
     with open(filename, 'w', encoding='ANSI') as file:
@@ -1825,7 +1823,6 @@ def create_geopackage():
 
     # get export path
     export_path = self.dlg.fw_export_path.filePath()
-    export_path = export_path.rstrip(str("\\"))
 
     # get a name for the GeoPackage (from project name if possible)
     if self.dlg.le_project_name.text() == "":
@@ -1834,7 +1831,7 @@ def create_geopackage():
         gpkg_name = str(self.dlg.le_project_name.text() + "_GPKG")
 
     # construct filename for the GeoPackage
-    gpkg_file = str(export_path + "\\" + gpkg_name + ".gpkg")
+    gpkg_file = os.path.join(export_path, gpkg_name + ".gpkg")
 
     # for all filetypes
     for count, filetype in enumerate(list_inputfile_types, start=1):
@@ -1894,10 +1891,9 @@ def export_standards():
 
     # get export path
     export_path = self.dlg.fw_export_path.filePath()
-    export_path = export_path.rstrip(str("\\"))
 
     # construct filename
-    filename = export_path + "\\" + "_STANDARDS for Plugin Input" + ".csv"
+    filename = os.path.join(export_path, "_STANDARDS for Plugin Input.csv")
 
     with open(filename, 'w', encoding='ANSI') as file:
 
@@ -1967,16 +1963,12 @@ def export_file_export_information():
 
     # get export path
     export_path = self.dlg.fw_export_path.filePath()
-    export_path = export_path.rstrip(str("\\"))
 
     # get time of export
     now = datetime.now()
-    # reformat suitably
-    time_of_export = now.strftime("%Y%m%d_%H%M")
-    time_of_export_2 = now.strftime("%Y/%m/%d at %H:%M")
 
     # construct filename
-    filename = export_path + "\\" + "_EXPORT_LOG_" + time_of_export + ".txt"
+    filename = os.path.join(export_path, f"_EXPORT_LOG_{now:%Y%m%d_%H%M}.txt")
 
     # check how many files have been exported
     number_files_to_export = len(list_filetypes_for_export)
@@ -1995,7 +1987,7 @@ def export_file_export_information():
         file.write("* EXPORT LOG\n"
                    "* This file summarizes the export information for the "
                    + number_files_to_export + " exported on the "
-                   + time_of_export_2 + ".\n*\n*\n" + 120*"*" + "\n")
+                   + now.strftime("%Y/%m/%d at %H:%M") + ".\n*\n*\n" + 120*"*" + "\n")
 
         # for every exported file
         for exported_type in list_filetypes_for_export:
@@ -3163,7 +3155,6 @@ def construct_filename(filetype):
 
     # get export path
     export_path = self.dlg.fw_export_path.filePath()
-    export_path = export_path.rstrip(str("\\"))
 
     # get project name from line edit
     project_name = self.dlg.le_project_name.text()
@@ -3219,7 +3210,7 @@ def construct_filename(filetype):
         filename = "unnamed"
 
     # add export path to filename
-    filename = str(export_path + str("\\") + filename)
+    filename = os.path.join(export_path, filename)
 
     # shorten filename if necessary
     max_filename_len = 250  # not 255 because of extension
