@@ -7867,7 +7867,7 @@ QPushButton:pressed { color: rgb(220, 220, 220) }</string>
          </font>
         </property>
         <property name="toolTip">
-         <string>execute manuel selection</string>
+         <string>execute manual selection</string>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton:pressed { background-color: rgb(0, 50, 200) }
@@ -7910,7 +7910,7 @@ QPushButton:pressed { color: rgb(220, 220, 220) }</string>
          </font>
         </property>
         <property name="toolTip">
-         <string>cancel manuel selection</string>
+         <string>cancel manual selection</string>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton:pressed { background-color: rgb(0, 50, 200) }

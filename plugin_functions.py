@@ -1794,7 +1794,7 @@ def export_user_manual():
     source_path = os.path.dirname(__file__)
     target_directory = self.dlg.fw_export_path.filePath()
 
-    # copy user manuel from plugin files into target directory
+    # copy user manual from plugin files into target directory
     shutil.copy(os.path.join(source_path, user_manual_filename),
                 target_directory)
 
