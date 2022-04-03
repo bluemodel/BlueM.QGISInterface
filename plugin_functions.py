@@ -1838,13 +1838,18 @@ def create_geopackage():
 
         # create a temporary layer with polygon geometry
         if filetype in ["BEK", "EZG", "FKA", "HYA", "RUE",
-                        "TAL", "TRS", "URB", "VER", "EFL", "DIF"]:
+                        "TAL", "URB", "VER", "EFL", "DIF"]:
             temp_layer = QgsVectorLayer("Polygon", "temp_layer", "memory")
 
         # create a temporary layer with multipolygon geometry
         elif filetype in ["BOA", "BOD", "LNZ"]:
             temp_layer = QgsVectorLayer(
                 "Multipolygon", "temp_layer", "memory")
+            
+        # create a temporary layer with linestring geometry
+        elif filetype in ["TRS"]:
+            temp_layer = QgsVectorLayer(
+                "Linestring", "temp_layer", "memory")
 
         # create a temporary layer with point geometry
         elif filetype in ["EIN"]:
