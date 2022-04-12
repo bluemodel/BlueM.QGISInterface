@@ -701,17 +701,14 @@ def previous_selection(filetype):
         # for every entry in the previous dictionary
         for attr_xx in previous_dict.keys():
 
-            # get attribute number
-            attr_number = attr_xx[5:]
-
             # get index of previously selected layer attribute
             prev_attr_index = eval("self.dlg2.cb_attr_xx.findText('yy')"
-                                   .replace("xx", attr_number)
+                                   .replace("attr_xx", attr_xx)
                                    .replace("yy", previous_dict[attr_xx]))
 
             # set combobox to previous selection
             eval("self.dlg2.cb_attr_xx.setCurrentIndex(yy)"
-                 .replace("xx", attr_number)
+                 .replace("attr_xx", attr_xx)
                  .replace("yy", str(prev_attr_index)))
 
 
