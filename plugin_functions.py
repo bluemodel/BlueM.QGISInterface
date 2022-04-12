@@ -536,6 +536,9 @@ def open_second_window(filetype):
     if self.dlg2.cb_attr_01.itemText(1) == "Field1":
         self.dlg2.pb_correct_field_names.show()
 
+    # check if a previous selection exists and set if available
+    previous_selection(filetype)
+      
     # open second window
     self.dlg2.show()
 
@@ -683,6 +686,33 @@ def create_dict_by_name(filetype):
 
     # transfer data from current dict into specific global dict
     globals()[filetype.lower() + "_attr_dict"] = current_dict
+
+
+#############################################################################
+
+
+# fill second window with previous attribute selection if available
+def previous_selection(filetype):
+
+    # check if a dict with a previous attribute selections is available
+    if str(filetype.lower() + "_attr_dict") in globals():
+        previous_dict = eval(filetype.lower() + "_attr_dict")
+
+        # for every entry in the previous dictionary
+        for attr_xx in previous_dict.keys():
+
+            # get attribute number
+            attr_number = attr_xx[5:]
+
+            # get index of previously selected layer attribute
+            prev_attr_index = eval("self.dlg2.cb_attr_xx.findText('yy')"
+                                   .replace("xx", attr_number)
+                                   .replace("yy", previous_dict[attr_xx]))
+
+            # set combobox to previous selection
+            eval("self.dlg2.cb_attr_xx.setCurrentIndex(yy)"
+                 .replace("xx", attr_number)
+                 .replace("yy", str(prev_attr_index)))
 
 
 #############################################################################
