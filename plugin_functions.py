@@ -158,7 +158,7 @@ def prepare_plugin(add_self, first_start):
     self.dlg.show()
 
     # set info about plugin version in both dialog windows
-    version_info = "version 1.2"
+    version_info = "version 1.3"
     self.dlg.lb_version_info.setText(version_info)
     self.dlg2.lb_version_info.setText(version_info)
 
